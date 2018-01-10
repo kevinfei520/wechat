@@ -1,0 +1,1077 @@
+[ 2018-01-06T02:59:45+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+
+[ 2018-01-06T03:05:17+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2018-01-06T03:06:19+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2018-01-06T03:07:53+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+
+[ 2018-01-06T03:08:10+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+
+[ 2018-01-06T03:08:20+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+
+[ 2018-01-06T03:09:03+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+
+[ 2018-01-06T03:09:30+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+
+[ 2018-01-06T03:09:36+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+
+[ 2018-01-06T03:09:58+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2018-01-06T03:10:37+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+
+[ 2018-01-06T03:11:35+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+
+[ 2018-01-06T03:12:24+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-06T03:12:26+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-06T03:12:39+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `cmf_wechat`  [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002386s ]
+
+[ 2018-01-06T03:13:54+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `cmf_wechat`  [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2018-01-06T03:14:34+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cmf_wechat`  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2018-01-06T04:20:31+08:00 ] 127.0.0.1 /index.php/Home/Base/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+ERR: 非法操作:index
+
+[ 2018-01-06T04:20:39+08:00 ] 127.0.0.1 /index.php/Home/Base/getaccesstoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: 参数错误或者未定义:appid
+
+[ 2018-01-06T04:20:55+08:00 ] 127.0.0.1 /index.php/Home/Base/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+ERR: 非法操作:index
+
+[ 2018-01-06T04:20:57+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2018-01-06T04:20:58+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2018-01-06T04:22:17+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Undefined variable: appid D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: secret D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `appid` = null AND `secret` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2018-01-06T04:22:43+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8] Undefined variable: appid D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: secret D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `appid` = null AND `secret` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-01-06T04:24:29+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0085s ]
+ERR: Think\Model:getFined方法不存在！
+
+[ 2018-01-06T04:24:50+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0168s ]
+SQL: SELECT `access_token` FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2018-01-06T04:25:03+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0065s ]
+SQL: SELECT `access_token` FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-06T04:25:59+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+
+[ 2018-01-06T04:27:40+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+
+[ 2018-01-06T04:27:58+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+
+[ 2018-01-06T04:28:35+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+
+[ 2018-01-06T04:29:25+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+
+[ 2018-01-06T04:29:58+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+
+[ 2018-01-06T04:30:17+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0014s ]
+
+[ 2018-01-06T04:30:37+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+
+[ 2018-01-06T04:30:57+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0017s ]
+
+[ 2018-01-06T04:31:43+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0014s ]
+
+[ 2018-01-06T04:32:15+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0013s ]
+
+[ 2018-01-06T04:32:47+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+
+[ 2018-01-06T04:33:02+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0009s ]
+
+[ 2018-01-06T04:33:18+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+
+[ 2018-01-06T04:33:35+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+
+[ 2018-01-06T04:33:53+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+
+[ 2018-01-06T04:37:47+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+
+[ 2018-01-06T04:38:44+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+
+[ 2018-01-06T04:39:07+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+NOTIC: [8] Undefined index: early_time D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 18 行.
+
+[ 2018-01-06T04:39:49+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+NOTIC: [8] Undefined index: early_time D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 18 行.
+
+[ 2018-01-06T04:41:08+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: accesstoken D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+NOTIC: [8] Undefined index: earlytime D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 18 行.
+
+[ 2018-01-06T04:41:21+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: accesstoken D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+NOTIC: [8] Undefined index: earlytime D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 18 行.
+
+[ 2018-01-06T04:42:05+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+NOTIC: [8] Undefined index: early_time D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 18 行.
+
+[ 2018-01-06T04:45:52+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0007s ]
+SQL: SELECT `access_token` FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 21 行.
+NOTIC: [8] Undefined index: early_time D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 22 行.
+
+[ 2018-01-06T04:46:11+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 11 行.
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 21 行.
+NOTIC: [8] Undefined index: early_time D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 22 行.
+
+[ 2018-01-06T04:46:30+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Undefined index: early_time D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 17 行.
+
+[ 2018-01-06T04:46:47+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0013s ]
+
+[ 2018-01-06T04:55:20+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2018-01-06T04:55:41+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2018-01-06T04:58:09+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `appid` = 'wx014a9e03aff14def' AND `secret` = '954a9770df68c0d3f0abbc1be1eb6cf5' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-06T04:59:24+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `appid` = 'wx014a9e03aff14def' AND `secret` = '954a9770df68c0d3f0abbc1be1eb6cf5' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 59 行.
+NOTIC: [8] Undefined offset: 0 D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2018-01-06T05:00:49+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001560s ]
+
+[ 2018-01-06T05:04:41+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+
+[ 2018-01-06T05:05:08+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [8] Undefined index: early_time D:\phpstudy\WWW\Wechat\Application\Home\Controller\WechatController.class.php 第 19 行.
+
+[ 2018-01-06T05:05:28+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+
+[ 2018-01-06T05:05:44+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`='5_C_1FEB9WemlnC14b2wj-3q83ev0fyVpjgclkaNfSMQVRtMnBHjGGW0pPSrS-_DR9DbJwi6QuivhHl56Ta2e53H9ZZX9ll3jIwCY3XaGWk9w5junndp-K9jYapx1LFwZ3gc1xDH0bKg7FsZIJVFSaAAAKUH',`early_time`='1515193544' WHERE `id` = 1 [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2018-01-06T05:05:53+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002892s ]
+
+[ 2018-01-06T05:07:15+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2018-01-06T05:09:39+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002520s ]
+
+[ 2018-01-06T05:10:01+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2018-01-06T05:10:11+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002517s ]
+
+[ 2018-01-06T05:10:19+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`='5_4VFDO6TWvnOq0oFe7qC0MvTwOi8VKTM5CeTSCjZwTr900GC8T8av6CnPajvA6qys_qiHxdGKoykys89CHd9ANAnKmdB-9LO0VUtJKyqhCY1L7f5NkztvKVdqTJcIAJiAJADVE',`early_time`='1515193819' WHERE `id` = 1 [ RunTime:0.0061s ]
+
+[ 2018-01-06T05:10:27+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`='5_LFukDDbJOkWJ9OuS7qC0MvTwOi8VKTM5CeTSCjZwTr900GC8T8av6CnPajug6SYWMkG-vRbTKnHt91GMrrH0rs7XVASyXyPW6EYmzXCIntJYsCPqtRCfPVYa1ocXOViAJALCJ',`early_time`='1515193827' WHERE `id` = 1 [ RunTime:0.0058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002498s ]
+
+[ 2018-01-06T05:11:02+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 25 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`='5_YfqkUz6Bm-sExGOQCfQoW1NvSxChT-YKzvJMy1W6Y4uqvIqf3bm7nreFEHKo1yBCjvWB4lQW9j_JuOPJ9psUTJmkpUnIQ2opGKPAy26OwEe6l-FmcTDxtexUnvUX4VQvD4CX3ueyGQwFhCCqAAVbAHAUUP',`early_time`='1515193862' WHERE `id` = 1 [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001774s ]
+
+[ 2018-01-06T05:11:36+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2018-01-06T05:17:03+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2018-01-06T05:18:07+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2018-01-06T05:19:20+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: appid D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: secret D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 77 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`=NULL,`early_time`='1515194360' WHERE `id` = 1 [ RunTime:0.0205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2018-01-06T05:19:38+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: appid D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: secret D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 77 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`=NULL,`early_time`='1515194378' WHERE `id` = 1 [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2018-01-06T05:20:01+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: appid D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: secret D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 77 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`=NULL,`early_time`='1515194401' WHERE `id` = 1 [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2018-01-06T05:20:26+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: appid D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: secret D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 77 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`=NULL,`early_time`='1515194426' WHERE `id` = 1 [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2018-01-06T05:20:54+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: appid D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: secret D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: access_token D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 77 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`=NULL,`early_time`='1515194454' WHERE `id` = 1 [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2018-01-06T05:21:15+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: appid D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: secret D:\phpstudy\WWW\Wechat\Application\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+
+[ 2018-01-06T05:22:12+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`='5_jgOMD3NzVFGJ-zHTTGP29aKgNRkblEn5HbSyBU1FZvWUc7-iq4HRBoI7GcV172CHMw8mv2aFVt2I3qTkIgTCAL2NxUg1uqO8xdNpZ-mE_lUwHHEP4yofTESpLppINKBH2lXZ125we4b6jWfgFLXeAHAYEQ',`early_time`='1515194532' WHERE `id` = 1 [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2018-01-06T05:22:26+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`='5_k6SXMM-S8AoHxQm2TGP29aKgNRkblEn5HbSyBU1FZvWUc7-iq4HRBoI7GcXwSuWeX2qCT6m3YgWiSuZe0hwAxkGqYsJxPTbRYwq0gLl5TI8cwsBFSAAkO3SjaA97GWoirztx6VVxHxIhUfvQGUYeAHALZD',`early_time`='1515194546' WHERE `id` = 1 [ RunTime:0.0061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002380s ]
+
+[ 2018-01-06T05:23:33+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`='5_XnEt5MhLQUC3UFKx4GFvRhqprD0dnahR5C0m2dKPs5ZQZutje_VQpwDqErAm0pG-p7yex31RQEEgxAMeWxZfo14zGBxvwHtzRah9SoKP49z5UGW7YwmtVaP5eAtUTUw7elAqrxYkeu3etsBmSMAaAIABVJ',`early_time`='1515194613' WHERE `id` = 1 [ RunTime:0.0056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2018-01-06T05:23:37+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: curl D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy\WWW\Wechat\Application\Home\Model\WechatModel.class.php 第 28 行.
+SQL: UPDATE `cmf_wechat` SET `access_token`='5_jVLFMFnPzvoO6JZA4GFvRhqprD0dnahR5C0m2dKPs5ZQZutje_VQpwDqErAbfaxr3wn0pSJS4DUMxs0KPqjJQV-t2_BED9usR6tqxPcUKLj95Sfv2w7v6FtS9KWnnYMKL2olUWXchOdvmVhIUGIaAIAKWY',`early_time`='1515194617' WHERE `id` = 1 [ RunTime:0.0049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2018-01-06T05:23:46+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2018-01-06T05:23:50+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2018-01-06T05:24:12+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `cmf_wechat` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cmf_wechat` WHERE `type` = 1 AND `status` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+

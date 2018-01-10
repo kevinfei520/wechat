@@ -1,0 +1,228 @@
+[ 2018-01-04T23:34:19+08:00 ] 127.0.0.1 /Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:34:46+08:00 ] 127.0.0.1 /Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+
+[ 2018-01-04T23:34:50+08:00 ] 127.0.0.1 /Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2018-01-04T23:35:05+08:00 ] 127.0.0.1 /Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+
+[ 2018-01-04T23:35:12+08:00 ] 127.0.0.1 /Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:35:24+08:00 ] 127.0.0.1 /Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:35:30+08:00 ] 127.0.0.1 /Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:35:37+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:35:45+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:35:54+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:36:22+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+
+[ 2018-01-04T23:36:31+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:37:16+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:38:58+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:39:12+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:44:01+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+
+[ 2018-01-04T23:44:03+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+
+[ 2018-01-04T23:44:25+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+ERR: 1146:Table 'thinkcmf.cmf_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cmf_wechat`
+
+[ 2018-01-04T23:45:38+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+
+[ 2018-01-04T23:46:17+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+
+[ 2018-01-04T23:48:05+08:00 ] 127.0.0.1 /index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+ERR: 1146:Table 'thinkcmf.think_wechat' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_wechat`
+
