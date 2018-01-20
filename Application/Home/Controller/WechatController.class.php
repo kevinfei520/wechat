@@ -13,7 +13,7 @@ class WechatController extends BaseController
 
 	public function AutoReply( $postObj ){   //自动回复 
 
-			$postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
+	    $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
             $fromUsername = $postObj->FromUserName;
             $toUsername = $postObj->ToUserName;
             $keyword = trim($postObj->Content);
@@ -29,12 +29,13 @@ class WechatController extends BaseController
 
             if(!empty( $keyword ))
             {   
+		    $talking = new autoreply;
+			    
+            }else{
                 $msgType = "text";
-                $contentStr = "Welcome to wechat world!";
+                $contentStr = "Sorry ! I don't know what you're talking about！";
                 $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 echo $resultStr;
-            }else{
-                echo "Input something...";
             }
 	}
 
