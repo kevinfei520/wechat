@@ -7,7 +7,6 @@ class BaseController extends Controller {
     public function valid() 
     {
         $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-        
         $myfile = fopen("newfile.txt", "w" , $postStr) or die("Unable to open file!");
         fwrite($myfile, $postStr);
         fclose($myfile);
