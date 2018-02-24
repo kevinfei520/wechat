@@ -8,7 +8,6 @@ class WechatController extends BaseController
 {	
 	public function index(){
 		$access_token = $this->GetAccessToken();
-		
 	}
 
 	public function AutoReply( $postObj ){   //自动回复 
@@ -29,8 +28,7 @@ class WechatController extends BaseController
 
             if(!empty( $keyword ))
             {   
-		    $talking = new autoreply;
-			    
+		    $talking = new autoreply;    
             }else{
                 $msgType = "text";
                 $contentStr = "Sorry ! I don't know what you're talking about！";
@@ -38,8 +36,6 @@ class WechatController extends BaseController
                 echo $resultStr;
             }
 	}
-
-
 
 
 }
