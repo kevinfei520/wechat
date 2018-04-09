@@ -3,67 +3,51 @@ namespace Home\Model;
 use Think\Model;
 
 // class WechatModel extends Model 
-class WechatModel
+class WechatModel extends Model
 {	
 
-/**
- * 描述      使用curl模拟get请求
- * @Author   Cabbage.
- * @DateTime 2018-01-06
- * @param    $url       请求地址
- * @param    $method    请求方式
- * @param    $data     	请求数据
- * @return   string 请求结果     
- */		
-public function curlGet($url,$method='get',$data=''){
-	$ch = curl_init();
-	$header = "Accept-Charset: utf-8";
-	curl_setopt($ch, CURLOPT_URL, $url);
-	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, strtoupper($method));
-	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
-	curl_setopt($curl, CURLOPT_HTTPHEADER, $header);
-	curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.0)');
-	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-	curl_setopt($ch, CURLOPT_AUTOREFERER, 1);
-	curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-	$temp = curl_exec($ch);
-	return $temp;
-}
+    /**
+     * 描述      获取$access_token
+     * @Author   Cabbage.
+     * @DateTime 2018-01-06
+     * @return   access_token   string
+     */
+    public function GetAccessToken()
+    {
+        $info = $this->where(['type'=>1,'status'=>0])->find();  //目前是测试环境 0正式 1测试
+        if ( !empty($info) ) {
+                if (!empty($info["early_time"]) ) {
+                    if ( intval($info["early_time"]) > time() ) {   //判断access_token是否过期
+                        return $access_token = $info['access_token'];
+                    }else{
+                        $access_token = $this->CurlGetAccessToken( $info['appid'] , $info['secret'] );
+                        $access_token = json_decode($access_token,true);
+                        $data['access_token'] = $access_token['access_token'];
+                        $data['early_time'] = time()+7200;
+                        $res = M('Wechat')->where( ['id'=>$info['id']] )->save( $data );
+                        $access_token = $data['access_token'];
+                        return  ($access_token ? $access_token :'sorry add error' );
+                    }
+                }else{  echo "no early_time!"; }
+        }else{  echo " no info";  }
+    }
+     /*
+     * 描述         使用curl获取access_token
+     * @Author      Cabbage.
+     * @DateTime    2018-01-06
+     * @param       $appid    微信appid
+     * @param       $secret   微信验证的密匙
+     * @return      access_token   json
+     */
+    public function CurlGetAccessToken( $appid , $secret )
+    {   
+        $url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.$appid.'&secret='.$secret;
+        return curlGet($url);
+    }
+
+
+
 	
-/**
-* 描述      使用curl模拟post请求
-* @Author   Cabbage.
-* @DateTime 2018-01-06
-* @param    $url       请求地址
-* @param    $content   请求内容
-* @param    $timeout   超时设置
-* @return   string     请求结果     
-*/   
-public function curl_post_url($url, $content, $timeout = 10) {
-	$post = '';
-	if (is_array ( $content )) {
-	    foreach ( $content as $k => $v ) {
-		$post .= $k . '=' . $v . '&';
-	    }
-	} else {
-	    $post = $content;
-	}
-	$ch = curl_init ();
-	curl_setopt ( $ch, CURLOPT_TIMEOUT, $timeout );
-	curl_setopt ( $ch, CURLOPT_CONNECTTIMEOUT, $timeout );
-	curl_setopt ( $ch, CURLOPT_HEADER, 0 );
-	curl_setopt ( $ch, CURLOPT_POST, 1 );
-	curl_setopt ( $ch, CURLOPT_POSTFIELDS, $post );
-	curl_setopt ( $ch, CURLOPT_URL, $url );
-	// curl_setopt ( $ch, CURLOPT_SSL_VERIFYPEER, false );
-	// curl_setopt ( $ch, CURLOPT_SSL_VERIFYHOST, false );
-	curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, true );
-	// curl_setopt ( $ch, CURLOPT_FOLLOWLOCATION, true );
-	$ret = curl_exec ( $ch );
-	curl_close ( $ch );
-	return $ret;
-}
+
 
 }

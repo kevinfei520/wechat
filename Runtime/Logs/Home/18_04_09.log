@@ -1,0 +1,107 @@
+[ 2018-04-09T19:47:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2018-04-09T19:47:19+08:00 ] 127.0.0.1 /Home/product/openDevice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `think_jzy_info` [ RunTime:0.0533s ]
+SQL: SHOW COLUMNS FROM `think_wechat_oauth` [ RunTime:0.0493s ]
+SQL: SELECT `openid` FROM `think_wechat_oauth` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0508s ]
+SQL: SELECT * FROM `think_jzy_info` WHERE `openid` = 'okjdwwYJdNDSOwqS7TIyV9acfvvA' AND `status` = 0 LIMIT 1   [ RunTime:0.0507s ]
+NOTIC: [8] Undefined variable: did D:\phpstudy\WWW\Wechat\Application\Home\Model\JzyInfoModel.class.php 第 74 行.
+NOTIC: [8] Use of undefined constant JZYAPPID - assumed 'JZYAPPID' D:\phpstudy\WWW\Wechat\Application\Home\Model\JzyInfoModel.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2018-04-09T19:50:55+08:00 ] 127.0.0.1 /Home/product/openDevice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+
+[ 2018-04-09T19:51:07+08:00 ] 127.0.0.1 /Home/product/openDevice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+
+[ 2018-04-09T19:51:14+08:00 ] 127.0.0.1 /Home/product/openDevice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `think_jzy_info` [ RunTime:0.0491s ]
+SQL: SHOW COLUMNS FROM `think_wechat_oauth` [ RunTime:0.0503s ]
+SQL: SELECT `openid` FROM `think_wechat_oauth` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0492s ]
+SQL: SELECT * FROM `think_jzy_info` WHERE `openid` = 'okjdwwYJdNDSOwqS7TIyV9acfvvA' AND `status` = 0 LIMIT 1   [ RunTime:0.0503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2018-04-09T19:52:01+08:00 ] 127.0.0.1 /Home/product/openDevice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `think_jzy_info` [ RunTime:0.0564s ]
+SQL: SHOW COLUMNS FROM `think_wechat_oauth` [ RunTime:0.0368s ]
+SQL: SELECT `openid` FROM `think_wechat_oauth` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0593s ]
+SQL: SELECT * FROM `think_jzy_info` WHERE `openid` = 'okjdwwYJdNDSOwqS7TIyV9acfvvA' AND `status` = 0 LIMIT 1   [ RunTime:0.0381s ]
+
+[ 2018-04-09T19:53:22+08:00 ] 127.0.0.1 /Home/product/openDevice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+SQL: SHOW COLUMNS FROM `think_jzy_info` [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `think_wechat_oauth` [ RunTime:0.0521s ]
+SQL: SELECT `openid` FROM `think_wechat_oauth` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0434s ]
+SQL: SELECT * FROM `think_jzy_info` WHERE `openid` = 'okjdwwYJdNDSOwqS7TIyV9acfvvA' AND `status` = 0 LIMIT 1   [ RunTime:0.0443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2018-04-09T19:53:46+08:00 ] 127.0.0.1 /Home/product/openDevice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002090s ]
+SQL: SHOW COLUMNS FROM `think_jzy_info` [ RunTime:0.0509s ]
+SQL: SHOW COLUMNS FROM `think_wechat_oauth` [ RunTime:0.0485s ]
+SQL: SELECT `openid` FROM `think_wechat_oauth` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0532s ]
+SQL: SELECT * FROM `think_jzy_info` WHERE `openid` = 'okjdwwYJdNDSOwqS7TIyV9acfvvA' AND `status` = 0 LIMIT 1   [ RunTime:0.0549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+

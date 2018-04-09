@@ -1,8 +1,8 @@
 <xml><ToUserName><![CDATA[gh_cbdc241e4812]]></ToUserName>
 <FromUserName><![CDATA[okjdwwYJdNDSOwqS7TIyV9acfvvA]]></FromUserName>
-<CreateTime>1515181545</CreateTime>
-<MsgType><![CDATA[image]]></MsgType>
-<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/Vqnl8g2GABUS8K8wjMRj9b1jicDmsQm5icNOuh3amHibnOH5FUuowRkDCKWoKSOVpiarcrDpTJEx1eSTtOJGJvFuBg/0]]></PicUrl>
-<MsgId>6507655183711567982</MsgId>
-<MediaId><![CDATA[DvNV6WQrUtUPQIcFDoNips1c4amf5mlS6jFoSL3oodDyRidnfiDBp76kwOcPfS69]]></MediaId>
+<CreateTime>1523146050</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://58djf.com/Wechat/Home/product/getOpenid]]></EventKey>
+<MenuId>434945254</MenuId>
 </xml>
