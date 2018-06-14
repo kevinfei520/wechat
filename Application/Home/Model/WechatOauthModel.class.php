@@ -14,7 +14,7 @@ class WechatOauthModel extends Model
 	 * 描述      获取某个字段  
 	 * @Author   Cabbage.
 	 * @DateTime 2018-04-03
-	 * @param    [type]     $data [description]
+	 * @param    [type]     $field[description]
 	 * @return   [type]           [description]
 	 */
 	public function getInfo($field){
