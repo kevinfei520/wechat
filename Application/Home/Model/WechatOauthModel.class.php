@@ -60,7 +60,7 @@ class WechatOauthModel extends Model
 		return $reslut ? $reslut : false; 
 	}
 
-	/**
+   /**
      * 用户授权登录
      * @Author   Cabbage.
      * @DateTime 2018-03-30
