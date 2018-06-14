@@ -14,8 +14,8 @@ class WechatOauthModel extends Model
 	 * 描述      获取某个字段  
 	 * @Author   Cabbage.
 	 * @DateTime 2018-04-03
-	 * @param    [type]     $field[description]
-	 * @return   [type]           [description]
+	 * @param    [string]  $field [字段名]
+	 * @return   [获取某个字段]
 	 */
 	public function getInfo($field){
 		return $this->where(['status'=>0])->field($field)->find(); 
