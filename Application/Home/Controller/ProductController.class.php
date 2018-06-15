@@ -4,9 +4,9 @@ use Think\Controller;
 /**
  * 微信硬件接入类 - 对接机智云openid接口
 */
-const JZYAPPID = "f66f7a17d35847c285ea21c3043faf4f";   // 机智云 appid
-const product_key = "5aacf202fd19478bb8a7484a83eab023";   // 机智云 product_key
-const product_secret = "b865c2db1baa4b1a81fa69c0a1376ba4";   // 机智云 product_secret
+const JZYAPPID = "";   // 机智云 appid
+const product_key = "";   // 机智云 product_key
+const product_secret = "";   // 机智云 product_secret
 
 class ProductController extends Controller
 {   
@@ -39,22 +39,21 @@ class ProductController extends Controller
 	 * @return   [type]     [description]
 	 */
 	public function checkSignature(){
-		$signature = I('get.signature');
-        $timestamp = I('get.timestamp');
-        $nonce = I('get.nonce');	
+	    $signature = I('get.signature');
+            $timestamp = I('get.timestamp');
+            $nonce = I('get.nonce');	
+	    $token = "WechatProduct";
+            $tmpArr = array($token, $timestamp, $nonce);
+	    sort($tmpArr, SORT_STRING);
+	    $tmpStr = implode( $tmpArr );
+	    $tmpStr = sha1( $tmpStr );
 
-		$token = "WechatProduct";
-		$tmpArr = array($token, $timestamp, $nonce);
-		sort($tmpArr, SORT_STRING);
-		$tmpStr = implode( $tmpArr );
-		$tmpStr = sha1( $tmpStr );
-		
-		if( $tmpStr == $signature ){
-			$echostr = I('get.echostr');
-	        echo  $echostr;
-		}else{
-			return false;
-		}    
+	    if( $tmpStr == $signature ){
+	 	$echostr = I('get.echostr');
+        	echo  $echostr;
+	     }else{
+		return false;
+	     }    
 	}
 	/**
 	 * 获取设备绑定openID的二维码地址
