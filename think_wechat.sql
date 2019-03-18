@@ -23,4 +23,4 @@ CREATE TABLE `cmf_wechat` (
 # Data for table "cmf_wechat"
 #
 
-INSERT INTO `cmf_wechat` VALUES (1,'wx014a9e03aff14def','954a9770df68c0d3f0abbc1be1eb6cf5',1,NULL,1516041722,0);
+INSERT INTO `cmf_wechat` VALUES (1,'appid','secret',1,NULL,1516041722,0);
