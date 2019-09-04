@@ -27,26 +27,11 @@ class Welcome extends CI_Controller {
 
 		parent::__construct();
 		
-		# 配置参数
-		$config = array(
-			'token'          => 'WechatToken',
-			'appid'          => 'wxf424cee783ba41b8',
-			'appsecret'      => '9a3b805dd87ab76c53edd79f5fb937ad',
-			'encodingaeskey' => 'XsGiOQzKJX6nLnoObNmgcdH3yB2BW2scAJIyh4YxSJ4',
-			'type'			 => 'user',
-		);
-		
 		# 加载对应操作接口
 		//文件夹名注意大写
-		$this->load->library('Wechat/wechat_user', $config);
+		$this->load->library('Wechat/wechat_user', self::getWconfig());
 
 		// var_dump($this->wechat_user->getUserList());
-	}
-	
-	public function index()
-	{
-		var_dump($config);die();
-
 	}
 
 	/**
@@ -57,16 +42,9 @@ class Welcome extends CI_Controller {
 	 */
 	public function valid()
 	{	
-		$config = array(
-			'token'          => 'WechatToken',
-			'appid'          => 'wxf424cee783ba41b8',
-			'appsecret'      => '9a3b805dd87ab76c53edd79f5fb937ad',
-			'encodingaeskey' => 'XsGiOQzKJX6nLnoObNmgcdH3yB2BW2scAJIyh4YxSJ4',
-			'type'			 => 'user',
-		);
 		# 加载对应操作接口
 		//文件夹名注意大写
-		$this->load->library('Wechat/lib/Wechat_common', $config);
+		$this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
 		var_dump($this->wechat_common->valid());
 	}
 }
