@@ -39,30 +39,22 @@ class Welcome extends CI_Controller {
 		# 加载对应操作接口
 		//文件夹名注意大写
 		$this->load->library('Wechat/wechat_user', $config);
-		
+
 		// var_dump($this->wechat_user->getUserList());
 	}
 	
-	public function index(){
+	public function index()
+	{
+		var_dump($config);die();
 
-		/*
-			# 配置参数
-			$config = array(
-				'token'          => 'openant',
-				'appid'          => 'wxfc790e2eb9601add',
-				'appsecret'      => '39ea2b90c55ec14462b1967909316895',
-				'encodingaeskey' => '',
-			);
-
-			# 加载对应操作接口
-			$this->wechat->get('User', $config);
-			//$userlist = $wechat->getUserList();
-		*/
-		//var_dump($userlist);
-		//var_dump($wechat->errMsg);
-		//var_dump($wechat->errCode);
 	}
 
+	/**
+	 * 微信服务器认证
+	 * @author   jingfeiMac
+	 * @datetime 2019-09-04T12:52:55+0800
+	 * @return   [type]                   [description]
+	 */
 	public function valid()
 	{	
 		$config = array(
@@ -72,6 +64,8 @@ class Welcome extends CI_Controller {
 			'encodingaeskey' => 'XsGiOQzKJX6nLnoObNmgcdH3yB2BW2scAJIyh4YxSJ4',
 			'type'			 => 'user',
 		);
+		# 加载对应操作接口
+		//文件夹名注意大写
 		$this->load->library('Wechat/lib/Wechat_common', $config);
 		var_dump($this->wechat_common->valid());
 	}

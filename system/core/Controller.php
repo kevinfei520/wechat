@@ -77,6 +77,7 @@ class CI_Controller {
 
 		$this->load =& load_class('Loader', 'core');
 		$this->load->initialize();
+
 		log_message('info', 'Controller Class Initialized');
 	}
 
@@ -93,4 +94,22 @@ class CI_Controller {
 		return self::$instance;
 	}
 
+	/**
+	 * [getWconfig 微信参数配置]
+	 * @author   jingfeiMac
+	 * @datetime 2019-09-04T13:26:23+0800
+	 * @return   [type]                   [description]
+	 */
+	public static function getWconfig()
+	{	
+		# wecaht配置参数
+		$wconfig = array(
+			'token'          => 'WechatToken',
+			'appid'          => 'wxf424cee783ba41b8',
+			'appsecret'      => '9a3b805dd87ab76c53edd79f5fb937ad',
+			'encodingaeskey' => 'XsGiOQzKJX6nLnoObNmgcdH3yB2BW2scAJIyh4YxSJ4',
+			'type'			 => 'user',
+		);
+		return $wconfig;
+	}
 }
