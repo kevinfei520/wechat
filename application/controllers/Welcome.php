@@ -36,4 +36,8 @@ class Welcome extends CI_Controller {
 		var_dump($this->wechat_user->getUserList());
 	}
 
+	public function index()
+	{
+		echo 'hello wechat';
+	}
 }
