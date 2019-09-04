@@ -8,7 +8,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author Anyon <zoujingli@qq.com>
  * @date 2016/06/28 11:29
  */
-
 require_once(BASEPATH.'libraries/Wechat/lib/Wechat_common.php');
 
 class CI_Wechat_receive extends CI_Wechat_common {
