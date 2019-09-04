@@ -9,6 +9,7 @@ defined ( 'BASEPATH' ) or exit ( 'No direct script access allowed' );
  *             @date 2016/06/28 11:59
  */
 class CI_Wechat_prpcrypt {
+	
 	public $key;
 	
 	function __construct($k) {

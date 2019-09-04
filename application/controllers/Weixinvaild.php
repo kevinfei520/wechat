@@ -23,4 +23,6 @@ class Weixinvaild extends CI_Controller {
 		$this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
 		echo $this->wechat_common->valid();
 	}
+
+	
 }

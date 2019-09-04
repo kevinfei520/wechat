@@ -2,9 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * Weixin Authentication
+ * Wechat Message Reply Template
  */
-class Welcome extends CI_Controller {
+class Template extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
