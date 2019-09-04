@@ -24,7 +24,7 @@ class Weixinvaild extends CI_Controller {
 		echo $this->wechat_common->valid();
 
 		$this->load->library('Wechat/lib/Wechat_receive', self::getWconfig());
-		echo $this->wechat_receive->reply('hello wechat jingfeiMac');
+		echo $this->wechat_receive->text('msg tips')->reply();
 	}
 
 
