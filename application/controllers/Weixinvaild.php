@@ -22,7 +22,10 @@ class Weixinvaild extends CI_Controller {
 		# 加载对应操作接口
 		$this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
 		echo $this->wechat_common->valid();
+
+		$this->load->library('Wechat/lib/Wechat_receive', self::getWconfig());
+		echo $this->wechat_receive->Message('hello');
 	}
 
-	
+
 }
