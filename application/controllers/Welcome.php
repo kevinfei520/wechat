@@ -1,6 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/**
+ * Weixin Authentication
+ */
 class Welcome extends CI_Controller {
 
 	/**
@@ -30,21 +33,7 @@ class Welcome extends CI_Controller {
 		# 加载对应操作接口
 		//文件夹名注意大写
 		$this->load->library('Wechat/wechat_user', self::getWconfig());
-
-		// var_dump($this->wechat_user->getUserList());
+		var_dump($this->wechat_user->getUserList());
 	}
 
-	/**
-	 * 微信服务器认证
-	 * @author   jingfeiMac
-	 * @datetime 2019-09-04T12:52:55+0800
-	 * @return   [type]                   [description]
-	 */
-	public function valid()
-	{	
-		# 加载对应操作接口
-		//文件夹名注意大写
-		$this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
-		var_dump($this->wechat_common->valid());
-	}
 }
