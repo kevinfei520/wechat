@@ -7,36 +7,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Mass extends CI_Controller {
 
 	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	// public function index()
-	// {
-	// 	$this->load->view('welcome_message');
-	// }
-
-	public function __construct() {
-
-		parent::__construct();
-		
-		# 加载对应操作接口
-		//文件夹名注意大写
-		$this->load->library('Wechat/wechat_user', self::getWconfig());
-		var_dump($this->wechat_user->getUserList());
-	}
-
-	/**
 	 * [index description]
 	 * @author   jingfeiMac  794783766@qq.com
 	 * @datetime 2019-09-04T13:57:21+0800
@@ -45,5 +15,30 @@ class Mass extends CI_Controller {
 	public function index()
 	{
 		echo 'hello wechat';
+	}
+
+	public function send()
+	{
+		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
+		echo $this->wechat_receive->text('msg tips')->reply();
+	}
+
+	public function preview()
+	{}
+
+	public function get()
+	{
+
+	}
+
+	public function sendall()
+	{
+		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
+		echo $this->wechat_receive->text('msg tips')->reply();
+	}
+
+	public function delete()
+	{
+		
 	}
 }

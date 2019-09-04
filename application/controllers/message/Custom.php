@@ -6,27 +6,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Custom extends CI_Controller {
 
-	
-	public function __construct() {
-
-		parent::__construct();
-		
-		# 加载对应操作接口
-		//文件夹名注意大写
-		$this->load->library('Wechat/wechat_user', self::getWconfig());
-		var_dump($this->wechat_user->getUserList());
-	}
-
-	/**
-	 * [index description]
-	 * @author   jingfeiMac  794783766@qq.com
-	 * @datetime 2019-09-04T13:57:21+0800
-	 * @return   [type]                   [description]
-	 */
-	public function index()
+	public function send()
 	{
-		echo 'hello wechat';
+		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
+		echo $this->wechat_receive->text('msg tips')->reply();
 	}
-
+	
 	
 }
