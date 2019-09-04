@@ -7,6 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Weixinvaild extends CI_Controller {
 
 	public function __construct() {
+		
 		parent::__construct();
 	}
 
@@ -20,5 +21,6 @@ class Weixinvaild extends CI_Controller {
 	{	
 		# 加载对应操作接口
 		$this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
+		var_dump($this->wechat_common->valid());
 	}
 }
