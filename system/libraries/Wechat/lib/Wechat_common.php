@@ -81,7 +81,7 @@ class CI_Wechat_common extends CI_Wechat_basic {
                 $encryptStr = $array['Encrypt'];
 
                 $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-                $txt = $encryptStr;
+                $txt = 'aaaaa';
                 fwrite($myfile, $txt);
                 fclose($myfile);
 
