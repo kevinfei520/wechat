@@ -76,13 +76,14 @@ class CI_Wechat_common extends CI_Wechat_basic {
         if ($_SERVER['REQUEST_METHOD'] == "POST") {   
             $postStr = file_get_contents("php://input");
             $array = (array) simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
-           
 
-            $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
-            $txt = $array;
-            fwrite($myfile, $txt);
-            fclose($myfile);
 
+            // foreach ($array as $key => $value) {
+                $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
+                $txt = implode(',', $array); //$array;
+                fwrite($myfile, $txt);
+                fclose($myfile);
+            // }
 
             $this->encrypt_type = isset($_GET["encrypt_type"]) ? $_GET["encrypt_type"] : '';
             if ($this->encrypt_type == 'aes') {
