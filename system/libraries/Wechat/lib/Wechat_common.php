@@ -77,9 +77,9 @@ class CI_Wechat_common extends CI_Wechat_basic {
             $postStr = file_get_contents("php://input");
             $array = (array) simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
            
-           
+
             $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
-            $txt = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
+            $txt = $postStr;
             fwrite($myfile, $txt);
             fclose($myfile);
 
