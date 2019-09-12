@@ -69,10 +69,11 @@ class CI_Wechat_common extends CI_Wechat_basic {
 
     /**
      * 接口验证
-     * // $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
-            // $txt = $_GET["echostr"];
-            // fwrite($myfile, $txt);
-            // fclose($myfile);
+     *  
+     * $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "w");
+     * $txt = $_GET["echostr"];
+     * fwrite($myfile, $txt);
+     * fclose($myfile);
      * @return boolean
      */
     public function valid() {
