@@ -58,3 +58,30 @@ INFO - 2019-09-12 07:41:49 --> Loader Class Initialized
 INFO - 2019-09-12 07:41:49 --> Controller Class Initialized
 INFO - 2019-09-12 07:41:49 --> Final output sent to browser
 DEBUG - 2019-09-12 07:41:49 --> Total execution time: 0.0041
+INFO - 2019-09-12 07:43:49 --> Config Class Initialized
+INFO - 2019-09-12 07:43:49 --> Hooks Class Initialized
+DEBUG - 2019-09-12 07:43:49 --> UTF-8 Support Enabled
+INFO - 2019-09-12 07:43:49 --> Utf8 Class Initialized
+INFO - 2019-09-12 07:43:49 --> URI Class Initialized
+INFO - 2019-09-12 07:43:49 --> Router Class Initialized
+INFO - 2019-09-12 07:43:49 --> Output Class Initialized
+INFO - 2019-09-12 07:43:49 --> Security Class Initialized
+DEBUG - 2019-09-12 07:43:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-09-12 07:43:49 --> Input Class Initialized
+INFO - 2019-09-12 07:43:49 --> Language Class Initialized
+INFO - 2019-09-12 07:43:49 --> Loader Class Initialized
+INFO - 2019-09-12 07:43:49 --> Controller Class Initialized
+INFO - 2019-09-12 07:43:49 --> Final output sent to browser
+DEBUG - 2019-09-12 07:43:49 --> Total execution time: 0.0054
+INFO - 2019-09-12 07:43:55 --> Config Class Initialized
+INFO - 2019-09-12 07:43:55 --> Hooks Class Initialized
+DEBUG - 2019-09-12 07:43:55 --> UTF-8 Support Enabled
+INFO - 2019-09-12 07:43:55 --> Utf8 Class Initialized
+INFO - 2019-09-12 07:43:55 --> URI Class Initialized
+INFO - 2019-09-12 07:43:55 --> Router Class Initialized
+INFO - 2019-09-12 07:43:55 --> Output Class Initialized
+INFO - 2019-09-12 07:43:55 --> Security Class Initialized
+DEBUG - 2019-09-12 07:43:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-09-12 07:43:55 --> Input Class Initialized
+INFO - 2019-09-12 07:43:55 --> Language Class Initialized
+ERROR - 2019-09-12 07:43:55 --> 404 Page Not Found: Weixinvaild/volid
