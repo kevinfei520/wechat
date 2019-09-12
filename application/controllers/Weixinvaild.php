@@ -30,7 +30,7 @@ class Weixinvaild extends CI_Controller {
 	 * @datetime 2019-09-12T16:03:55+0800
 	 * @return   [type]                   [description]
 	 */
-	public function autoReply()
+	public function index()
 	{
 		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
 		$this->wechat_receive->text('msg tips')->reply();
