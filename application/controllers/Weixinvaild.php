@@ -23,6 +23,17 @@ class Weixinvaild extends CI_Controller {
 		$this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
 		echo $this->wechat_common->valid();
 	}
-
+	
+	/**
+	 * [autoReply  自动回复消息]
+	 * @author   jingfeiMac  794783766@qq.com
+	 * @datetime 2019-09-12T16:03:55+0800
+	 * @return   [type]                   [description]
+	 */
+	public function autoReply()
+	{
+		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
+		$this->wechat_receive->text('msg tips')->reply();
+	}
 
 }
