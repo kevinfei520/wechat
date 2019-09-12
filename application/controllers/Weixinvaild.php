@@ -6,11 +6,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Weixinvaild extends CI_Controller {
 
-	public function __construct() {
-
-		parent::__construct();
-	}
-
 	/**
 	 * 微信服务器认证
 	 * @author   jingfeiMac
@@ -21,7 +16,7 @@ class Weixinvaild extends CI_Controller {
 	{	
 		# 加载对应操作接口
 		$this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
-		echo $this->wechat_common->valid();
+		$this->wechat_common->valid();
 	}
 	
 	/**
