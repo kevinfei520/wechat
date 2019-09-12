@@ -79,6 +79,12 @@ class CI_Wechat_common extends CI_Wechat_basic {
             $this->encrypt_type = isset($_GET["encrypt_type"]) ? $_GET["encrypt_type"] : '';
             if ($this->encrypt_type == 'aes') {
                 $encryptStr = $array['Encrypt'];
+
+                $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+                $txt = $encryptStr;
+                fwrite($myfile, $txt);
+                fclose($myfile);
+
                 !class_exists('Prpcrypt', FALSE) && require __DIR__ . '/Prpcrypt.php';
                 $pc = new Prpcrypt($this->encodingAesKey);
                 $array = $pc->decrypt($encryptStr, $this->appid);
