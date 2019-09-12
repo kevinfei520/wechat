@@ -69,6 +69,10 @@ class CI_Wechat_common extends CI_Wechat_basic {
 
     /**
      * 接口验证
+     * // $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
+            // $txt = $_GET["echostr"];
+            // fwrite($myfile, $txt);
+            // fclose($myfile);
      * @return boolean
      */
     public function valid() {
@@ -76,16 +80,13 @@ class CI_Wechat_common extends CI_Wechat_basic {
         if ($_SERVER['REQUEST_METHOD'] == "POST") {   
             $postStr = file_get_contents("php://input");
             $array = (array) simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
-
-
-            // foreach ($array as $key => $value) {
-                $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
-                $txt = implode(',', $array); //$array;
-                fwrite($myfile, $txt);
-                fclose($myfile);
-            // }
-
             $this->encrypt_type = isset($_GET["encrypt_type"]) ? $_GET["encrypt_type"] : '';
+
+            $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
+            $txt =  $this->encrypt_type;
+            fwrite($myfile, $txt);
+            fclose($myfile);
+            
             if ($this->encrypt_type == 'aes') {
                 $encryptStr = $array['Encrypt'];
                 !class_exists('Prpcrypt', FALSE) && require __DIR__ . '/Prpcrypt.php';
@@ -103,12 +104,6 @@ class CI_Wechat_common extends CI_Wechat_basic {
                 $this->postxml = $postStr;
             }
         } elseif (isset($_GET["echostr"])) {
-
-            $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
-            $txt = $_GET["echostr"];
-            fwrite($myfile, $txt);
-            fclose($myfile);
-
             if ($this->checkSignature()) {
                 exit($_GET["echostr"]);
             } else {
