@@ -27,14 +27,16 @@ class Weixinvaild extends CI_Controller {
 		fwrite($myfile, $txt);
 		fclose($myfile);
 
-		if( $this->wechat_common->valid() )
-		{
-			echo $this->wechat_common->valid();
-		}else{
-			$this->load->library('Wechat/Wechat_receive', self::getWconfig());
-			$this->wechat_receive->text('msg tips')
-			$this->wechat_receive->reply();
-		}
+		echo $this->wechat_common->valid();
+		
+		// if( $this->wechat_common->valid() )
+		// {
+		// 	echo $this->wechat_common->valid();
+		// }else{
+		// 	$this->load->library('Wechat/Wechat_receive', self::getWconfig());
+		// 	$this->wechat_receive->text('msg tips')
+		// 	$this->wechat_receive->reply();
+		// }
 	}
 
 
