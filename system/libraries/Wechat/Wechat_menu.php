@@ -58,6 +58,9 @@ class CI_Wechat_menu extends CI_Wechat_common {
             return false;
         }
         $result = $this->http_get(self::API_URL_PREFIX . self::MENU_GET_URL . 'access_token=' . $this->access_token);
+        
+        var_dump( self::API_URL_PREFIX . self::MENU_GET_URL . 'access_token=' . $this->access_token );die;
+        
         if ($result) {
             $json = json_decode($result, true);
             if (!$json || isset($json['errcode'])) {
