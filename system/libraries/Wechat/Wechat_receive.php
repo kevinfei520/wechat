@@ -843,6 +843,13 @@ class CI_Wechat_receive extends CI_Wechat_common {
             'CreateTime'   => time(),
             'FuncFlag'     => $FuncFlag
         );
+
+        $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "a");
+        $txt = implode(',', $msg);
+        fwrite($myfile, $txt);
+        fclose($myfile);
+
+
         $this->Message($msg);
         return $this;
     }

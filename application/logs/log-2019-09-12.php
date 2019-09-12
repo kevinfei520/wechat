@@ -185,3 +185,6 @@ INFO - 2019-09-12 07:58:15 --> Controller Class Initialized
 INFO - 2019-09-12 07:58:15 --> Database Driver Class Initialized
 INFO - 2019-09-12 07:58:16 --> Final output sent to browser
 DEBUG - 2019-09-12 07:58:16 --> Total execution time: 0.6201
+ERROR - 2019-09-12 10:25:04 --> Severity: Warning --> fopen(/www/wwwroot/weixin.kevinfei.com/newfile.txt): failed to open stream: No such file or directory /Users/kevinfei/Documents/www/my.codeigniter.com/system/libraries/Wechat/Wechat_receive.php 1008
+ERROR - 2019-09-12 10:25:04 --> Severity: Warning --> fwrite() expects parameter 1 to be resource, boolean given /Users/kevinfei/Documents/www/my.codeigniter.com/system/libraries/Wechat/Wechat_receive.php 1010
+ERROR - 2019-09-12 10:25:04 --> Severity: Warning --> fclose() expects parameter 1 to be resource, boolean given /Users/kevinfei/Documents/www/my.codeigniter.com/system/libraries/Wechat/Wechat_receive.php 1011
