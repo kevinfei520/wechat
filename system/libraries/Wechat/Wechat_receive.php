@@ -843,6 +843,12 @@ class CI_Wechat_receive extends CI_Wechat_common {
             'CreateTime'   => time(),
             'FuncFlag'     => $FuncFlag
         );
+
+        $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "a");
+        $txt = $msg;
+        fwrite($myfile, $txt);
+        fclose($myfile);
+        
         $this->Message($msg);
         return $this;
     }
@@ -987,10 +993,6 @@ class CI_Wechat_receive extends CI_Wechat_common {
             $msg = $this->_msg;
         }
         $xmldata = self::array2xml($msg);
-        $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "a");
-        $txt = $this->encrypt_type;
-        fwrite($myfile, $txt);
-        fclose($myfile);
         if ($this->encrypt_type == 'aes') { //如果来源消息为加密方式
             !class_exists('Prpcrypt', FALSE) && require __DIR__ . '/Lib/Prpcrypt.php';
             $pc = new Prpcrypt($this->encodingAesKey);
