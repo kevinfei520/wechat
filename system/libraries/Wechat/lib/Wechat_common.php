@@ -101,7 +101,7 @@ class CI_Wechat_common extends CI_Wechat_basic {
             }
         } elseif (isset($_GET["echostr"])) {
 
-            $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+            $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
             $txt = $_GET["echostr"];
             fwrite($myfile, $txt);
             fclose($myfile);
