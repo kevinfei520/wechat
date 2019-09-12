@@ -85,3 +85,51 @@ DEBUG - 2019-09-12 07:43:55 --> Global POST, GET and COOKIE data sanitized
 INFO - 2019-09-12 07:43:55 --> Input Class Initialized
 INFO - 2019-09-12 07:43:55 --> Language Class Initialized
 ERROR - 2019-09-12 07:43:55 --> 404 Page Not Found: Weixinvaild/volid
+INFO - 2019-09-12 07:56:37 --> Config Class Initialized
+INFO - 2019-09-12 07:56:37 --> Hooks Class Initialized
+DEBUG - 2019-09-12 07:56:37 --> UTF-8 Support Enabled
+INFO - 2019-09-12 07:56:37 --> Utf8 Class Initialized
+INFO - 2019-09-12 07:56:37 --> URI Class Initialized
+INFO - 2019-09-12 07:56:37 --> Router Class Initialized
+INFO - 2019-09-12 07:56:37 --> Output Class Initialized
+INFO - 2019-09-12 07:56:37 --> Security Class Initialized
+DEBUG - 2019-09-12 07:56:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-09-12 07:56:37 --> Input Class Initialized
+INFO - 2019-09-12 07:56:37 --> Language Class Initialized
+ERROR - 2019-09-12 07:56:37 --> 404 Page Not Found: Welcome/volid
+INFO - 2019-09-12 07:56:39 --> Config Class Initialized
+INFO - 2019-09-12 07:56:39 --> Hooks Class Initialized
+DEBUG - 2019-09-12 07:56:39 --> UTF-8 Support Enabled
+INFO - 2019-09-12 07:56:39 --> Utf8 Class Initialized
+INFO - 2019-09-12 07:56:39 --> URI Class Initialized
+INFO - 2019-09-12 07:56:39 --> Router Class Initialized
+INFO - 2019-09-12 07:56:39 --> Output Class Initialized
+INFO - 2019-09-12 07:56:39 --> Security Class Initialized
+DEBUG - 2019-09-12 07:56:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-09-12 07:56:39 --> Input Class Initialized
+INFO - 2019-09-12 07:56:39 --> Language Class Initialized
+ERROR - 2019-09-12 07:56:39 --> 404 Page Not Found: Welcome/index
+INFO - 2019-09-12 07:56:50 --> Config Class Initialized
+INFO - 2019-09-12 07:56:50 --> Hooks Class Initialized
+DEBUG - 2019-09-12 07:56:50 --> UTF-8 Support Enabled
+INFO - 2019-09-12 07:56:50 --> Utf8 Class Initialized
+INFO - 2019-09-12 07:56:50 --> URI Class Initialized
+INFO - 2019-09-12 07:56:50 --> Router Class Initialized
+INFO - 2019-09-12 07:56:50 --> Output Class Initialized
+INFO - 2019-09-12 07:56:50 --> Security Class Initialized
+DEBUG - 2019-09-12 07:56:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-09-12 07:56:50 --> Input Class Initialized
+INFO - 2019-09-12 07:56:50 --> Language Class Initialized
+ERROR - 2019-09-12 07:56:50 --> 404 Page Not Found: Welcome/index
+INFO - 2019-09-12 07:56:54 --> Config Class Initialized
+INFO - 2019-09-12 07:56:54 --> Hooks Class Initialized
+DEBUG - 2019-09-12 07:56:54 --> UTF-8 Support Enabled
+INFO - 2019-09-12 07:56:54 --> Utf8 Class Initialized
+INFO - 2019-09-12 07:56:54 --> URI Class Initialized
+INFO - 2019-09-12 07:56:54 --> Router Class Initialized
+INFO - 2019-09-12 07:56:54 --> Output Class Initialized
+INFO - 2019-09-12 07:56:54 --> Security Class Initialized
+DEBUG - 2019-09-12 07:56:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-09-12 07:56:54 --> Input Class Initialized
+INFO - 2019-09-12 07:56:54 --> Language Class Initialized
+ERROR - 2019-09-12 07:56:54 --> 404 Page Not Found: Welcome/index
