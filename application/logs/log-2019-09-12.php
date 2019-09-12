@@ -212,3 +212,6 @@ ERROR - 2019-09-12 11:28:54 --> Severity: Warning --> fclose() expects parameter
 ERROR - 2019-09-12 11:28:54 --> Severity: Warning --> fopen(/www/wwwroot/weixin.kevinfei.com/newfile.txt): failed to open stream: No such file or directory /Users/kevinfei/Documents/www/my.codeigniter.com/system/libraries/Wechat/Wechat_receive.php 1014
 ERROR - 2019-09-12 11:28:54 --> Severity: Warning --> fwrite() expects parameter 1 to be resource, boolean given /Users/kevinfei/Documents/www/my.codeigniter.com/system/libraries/Wechat/Wechat_receive.php 1016
 ERROR - 2019-09-12 11:28:54 --> Severity: Warning --> fclose() expects parameter 1 to be resource, boolean given /Users/kevinfei/Documents/www/my.codeigniter.com/system/libraries/Wechat/Wechat_receive.php 1017
+ERROR - 2019-09-12 12:53:20 --> Severity: error --> Exception: Call to undefined method Menu::json_encode() /Users/kevinfei/Documents/www/my.codeigniter.com/application/controllers/Menu.php 107
+ERROR - 2019-09-12 12:53:23 --> Severity: error --> Exception: Call to undefined method Menu::json_encode() /Users/kevinfei/Documents/www/my.codeigniter.com/application/controllers/Menu.php 107
+ERROR - 2019-09-12 12:53:44 --> Severity: 8192 --> Function create_function() is deprecated /Users/kevinfei/Documents/www/my.codeigniter.com/application/controllers/Menu.php 38

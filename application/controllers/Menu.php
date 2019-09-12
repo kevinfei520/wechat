@@ -29,6 +29,16 @@ class Menu extends CI_Controller {
 	}	
 
 	/**
+     * 生成JSON，保留汉字
+     * @param type $array
+     * @return type
+     */
+    protected static function json_encode($array) {
+        $str = json_encode($array);
+        return preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return mb_convert_encoding(pack("H*", $matches[1]), "UTF-8", "UCS-2BE");'), $str);
+    }
+
+	/**
 	 * [create description]
 	 * @author   jingfeiMac  794783766@qq.com
 	 * @datetime 2019-09-12T20:04:47+0800
@@ -37,74 +47,63 @@ class Menu extends CI_Controller {
 	public function create()
 	{	
 		
-		$data = array( 
-			'button' => 
-						array(
-							'type' => 'click',
-							'name' => '菜单',
-							'sub_button'  => 
-											array(
-												'type' => 'click',
-												'name' => 'BIAOPIZZA',
-												'key'  => 'news',
-												'sub_button' => [],
-											),
-											array(
-												'type' => 'view',
-												'name' => '获取设备二维码地址',
-												'key'  => 'news',
-												'sub_button' => [],
-											),
-											array(
-												'type' => 'view',
-												'name' => '其他通知',
-												'url'  => 'http:\/\/mp.weixin.qq.com\/s?__biz=MzI2MDI4NzQ4NA==&mid=2247483654&idx=1&sn=571ff09b182d25b03851fbb4c6456094&scene=18#rd',
-												'sub_button' => [],
-											),
-						),
-						array(
-							'type' => 'click',
-							'name' => '备忘',
-							'sub_button'  => 
-											array(
-												'type' => 'view',
-												'name' => 'h5',
-												'url'  => 'http:\/\/h5.eqxiu.com\/s\/pwIOcdKA',
-												'sub_button' => [],
-											),
-											array(
-												'type' => 'click',
-												'name' => '图文',
-												'key'  => 'news',
-												'sub_button' => [],
-											),
-											array(
-												'type' => 'miniprogram',
-												'name' => 'wxa',
-												'url'  => 'http://mp.weixin.qq.com',
-												'appid'=> 'wx286b93c14bbf93aa',
-												'pagepath' => 'pages/lunar/index',
-											),
-						),
-						array(
-							'type' => 'click',
-							'name' => '关于',
-							'sub_button'  => 
-											array(
-												'type' => 'click',
-												'name' => '博客',
-												'url'  => 'http://blog.kevinfei.com',
-												'sub_button' => [],
-											),
-											array(
-												'type' => 'click',
-												'name' => '联系我们',
-												'key'  => 'About',
-												'sub_button' => [],
-											),
-						),
-		);
+		$data = '{
+              "button": [
+                    {
+                        "name": "菜单",
+                        "sub_button": [{
+                            "type": "click",
+                            "name": "BiaoPizza",
+                            "key": "news",
+                            "sub_button": []
+                        }, {
+                            "type": "view",
+                            "name": "获取设备二维码地址",
+                            "url": "http://58djf.com/Wechat/Home/product/getOpenid",
+                            "sub_button": []
+                        }, {
+                            "type": "view",
+                            "name": "其他通知",
+                            "url": "http:\/\/mp.weixin.qq.com\/s?__biz=MzI2MDI4NzQ4NA==&mid=2247483654&idx=1&sn=571ff09b182d25b03851fbb4c6456094&scene=18#rd",
+                            "sub_button": []
+                        }]
+                    }, 
 
+                    {
+                        "name": "备忘",
+                        "sub_button": [{
+                            "type": "view",
+                            "name": "H5",
+                            "url": "http:\/\/h5.eqxiu.com\/s\/pwIOcdKA",
+                            "sub_button": []
+                        }, {
+                            "type": "click",
+                            "name": "图文",
+                            "key": "news",
+                            "sub_button": []
+                        }]
+                    },
+
+                    {
+                        "name": "关于",
+                        "sub_button": 
+                        [
+                            {
+                                "type": "view",
+                                "name": "Blog",
+                                "url": "http:\/\/blog.kevinfei.com\/",
+                                "sub_button": []
+                            },
+                            {
+                                "type": "click",
+                                "name": "联系我们",
+                                "key": "About",
+                                "sub_button": []
+                            }
+                        ]
+                    }
+                ]
+         }' ;
 		$this->load->library('Wechat/wechat_menu', self::getWconfig());
 		var_dump($this->wechat_menu->createMenu($data));
 	}
