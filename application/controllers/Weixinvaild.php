@@ -21,6 +21,12 @@ class Weixinvaild extends CI_Controller {
 	{	
 		# 加载对应操作接口
 		$this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
+
+		$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+		$text = $this->wechat_common->valid();
+		fwrite($myfile, $txt);
+		fclose($myfile);
+
 		if( $this->wechat_common->valid() )
 		{
 			echo $this->wechat_common->valid();
