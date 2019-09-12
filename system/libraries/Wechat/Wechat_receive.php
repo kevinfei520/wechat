@@ -849,7 +849,6 @@ class CI_Wechat_receive extends CI_Wechat_common {
         fwrite($myfile, $txt);
         fclose($myfile);
 
-
         $this->Message($msg);
         return $this;
     }
