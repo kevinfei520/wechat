@@ -81,12 +81,6 @@ class CI_Wechat_common extends CI_Wechat_basic {
             $postStr = file_get_contents("php://input");
             $array = (array) simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
             $this->encrypt_type = isset($_GET["encrypt_type"]) ? $_GET["encrypt_type"] : '';
-
-            $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
-            $txt =  $this->encrypt_type;
-            fwrite($myfile, $txt);
-            fclose($myfile);
-            
             if ($this->encrypt_type == 'aes') {
                 $encryptStr = $array['Encrypt'];
                 !class_exists('Prpcrypt', FALSE) && require __DIR__ . '/Prpcrypt.php';
