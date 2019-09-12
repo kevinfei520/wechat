@@ -20,7 +20,7 @@ class Mass extends CI_Controller {
 	public function send()
 	{
 		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
-		echo $this->wechat_receive->text('msg tips')->reply();
+		$this->wechat_receive->text('msg tips')->reply();
 	}
 
 	public function preview()
@@ -34,7 +34,7 @@ class Mass extends CI_Controller {
 	public function sendall()
 	{
 		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
-		echo $this->wechat_receive->text('msg tips')->reply();
+		$this->wechat_receive->text('msg tips')->reply();
 	}
 
 	public function delete()
