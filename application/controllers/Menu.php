@@ -75,7 +75,7 @@ class Menu extends CI_Controller {
 											array(
 												'type' => 'click',
 												'name' => '图文',
-												'url'  => 'news',
+												'key'  => 'news',
 												'sub_button' => [],
 											),
 											array(
