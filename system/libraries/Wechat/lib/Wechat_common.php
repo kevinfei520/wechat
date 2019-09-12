@@ -79,7 +79,7 @@ class CI_Wechat_common extends CI_Wechat_basic {
            
 
             $myfile = fopen("/www/wwwroot/wechat.kevinfei.com/newfile.txt", "w");
-            $txt = $postStr;
+            $txt = $array;
             fwrite($myfile, $txt);
             fclose($myfile);
 
