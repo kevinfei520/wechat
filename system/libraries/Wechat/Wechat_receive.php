@@ -40,10 +40,6 @@ class CI_Wechat_receive extends CI_Wechat_common {
     /** 消息对象 */
     private $_receive;
 
-    public function __construct() {
-         parent::__construct();
-    }
-
     /**
      * 获取微信服务器发来的内容
      * @return \WechatReceive

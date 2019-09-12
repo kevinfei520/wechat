@@ -96,8 +96,10 @@ class CI_Wechat_common extends CI_Wechat_basic {
                 empty($this->appid) && $this->appid = $array[2];
             } else {
                 $this->postxml = $postStr;
-                $this->load->library('Wechat/Wechat_receive', self::getWconfig());
-                $this->wechat_receive->text('msg tips')->reply();
+                !class_exists('Wechat_receive', FALSE) && require __DIR__ . '/../Wechat_receive.php';
+                // $this->load->library('Wechat/Wechat_receive', self::getWconfig());
+                $pc = new Prpcrypt();
+                $pc->text('msg tips')->reply();
             }
         } elseif (isset($_GET["echostr"])) {
             if ($this->checkSignature()) {

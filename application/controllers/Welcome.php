@@ -35,15 +35,4 @@ class Welcome extends CI_Controller {
 		$this->load->library('Wechat/wechat_user', self::getWconfig());
 		var_dump($this->wechat_user->getUserList());
 	}
-
-	/**
-	 * [index description]
-	 * @author   jingfeiMac  794783766@qq.com
-	 * @datetime 2019-09-04T13:57:21+0800
-	 * @return   [type]                   [description]
-	 */
-	public function index()
-	{
-		echo 'hello wechat';
-	}
 }
