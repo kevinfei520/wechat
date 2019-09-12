@@ -97,15 +97,6 @@ class CI_Wechat_common extends CI_Wechat_basic {
                 empty($this->appid) && $this->appid = $array[2];
             } else {
                 $this->postxml = $postStr;
-                //执行自动回复
-                $receivePath = BASEPATH.'libraries/Wechat/Wechat_receive.php'
-                $receive = new Wechat_receive()
-                echo $receive->text('hello')->reply();
-
-                $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "w");
-                $txt = $this->postxml;
-                fwrite($myfile, $txt);
-                fclose($myfile);
             }
         } elseif (isset($_GET["echostr"])) {
             if ($this->checkSignature()) {
