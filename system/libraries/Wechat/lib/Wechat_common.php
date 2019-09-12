@@ -98,6 +98,10 @@ class CI_Wechat_common extends CI_Wechat_basic {
             } else {
                 $this->postxml = $postStr;
                 //执行自动回复
+                $receivePath = BASEPATH.'libraries/Wechat/Wechat_receive.php'
+                $receive = new Wechat_receive()
+                echo $receive->text('hello')->reply();
+
                 $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "w");
                 $txt = $this->postxml;
                 fwrite($myfile, $txt);
