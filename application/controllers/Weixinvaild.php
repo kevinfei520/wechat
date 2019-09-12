@@ -28,7 +28,7 @@ class Weixinvaild extends CI_Controller {
 	public function index()
 	{
 		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
-		$this->wechat_receive->text('msg')->reply();
+		echo $this->wechat_receive->text('msg')->reply();
 	}
 
 }
