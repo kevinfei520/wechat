@@ -988,7 +988,7 @@ class CI_Wechat_receive extends CI_Wechat_common {
         }
         $xmldata = self::array2xml($msg);
         $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "a");
-        $txt = $xmldata;
+        $txt = $this->encrypt_type;
         fwrite($myfile, $txt);
         fclose($myfile);
         if ($this->encrypt_type == 'aes') { //如果来源消息为加密方式
