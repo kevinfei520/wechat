@@ -24,10 +24,14 @@ class Weixinvaild extends CI_Controller {
 
 		echo $this->wechat_common->valid();
 
-		$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-		$txt = $this->wechat_common->valid();
-		fwrite($myfile, $txt);
-		fclose($myfile);
+		if ($_SERVER['REQUEST_METHOD'] == "POST") {
+            $postStr = file_get_contents("php://input");
+            $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+			$txt = $postStr;
+			fwrite($myfile, $txt);
+			fclose($myfile);
+        }   
+		
 
 		// if( $this->wechat_common->valid() )
 		// {
