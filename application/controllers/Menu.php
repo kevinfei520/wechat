@@ -29,16 +29,6 @@ class Menu extends CI_Controller {
 	}	
 
 	/**
-     * 生成JSON，保留汉字
-     * @param type $array
-     * @return type
-     */
-    protected static function json_encode($array) {
-        $str = json_encode($array);
-        return preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return mb_convert_encoding(pack("H*", $matches[1]), "UTF-8", "UCS-2BE");'), $str);
-    }
-
-	/**
 	 * [create description]
 	 * @author   jingfeiMac  794783766@qq.com
 	 * @datetime 2019-09-12T20:04:47+0800
@@ -103,7 +93,7 @@ class Menu extends CI_Controller {
                         ]
                     }
                 ]
-         }' ;
+        }';
 		$this->load->library('Wechat/wechat_menu', self::getWconfig());
 		var_dump($this->wechat_menu->createMenu($data));
 	}
