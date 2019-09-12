@@ -36,7 +36,7 @@ class CI_Wechat_menu extends CI_Wechat_common {
         if (!$this->access_token && !$this->checkAuth()) {
             return false;
         }
-        $result = $this->http_post(self::API_URL_PREFIX . self::MENU_ADD_URL . 'access_token=' . $this->access_token, $data );
+        $result = $this->http_post(self::API_URL_PREFIX . self::MENU_ADD_URL . 'access_token=' . $this->access_token, self::json_encode($data));
         if ($result) {
             $json = json_decode($result, true);
             if (!$json || !empty($json['errcode'])) {

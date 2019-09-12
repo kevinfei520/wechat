@@ -36,35 +36,75 @@ class Menu extends CI_Controller {
 	 */
 	public function create()
 	{	
-		$data = '{
-				     "button":[
-				     {    
-				          "type":"click",
-				          "name":"今日歌曲",
-				          "key":"V1001_TODAY_MUSIC"
-				      },
-				      {
-				           "name":"菜单",
-				           "sub_button":[
-				           {    
-				               "type":"view",
-				               "name":"搜索",
-				               "url":"http://www.soso.com/"
-				            },
-				            {
-				                 "type":"miniprogram",
-				                 "name":"wxa",
-				                 "url":"http://mp.weixin.qq.com",
-				                 "appid":"wx286b93c14bbf93aa",
-				                 "pagepath":"pages/lunar/index"
-				             },
-				            {
-				               "type":"click",
-				               "name":"赞一下我们",
-				               "key":"V1001_GOOD"
-				            }]
-				       }]
-				 }';
+		
+		$data = array( 
+			'button' => 
+						array(
+							'type' => 'click',
+							'name' => '菜单',
+							'sub_button'  => 
+											array(
+												'type' => 'click',
+												'name' => 'BIAOPIZZA',
+												'key'  => 'news',
+												'sub_button' => [],
+											),
+											array(
+												'type' => 'view',
+												'name' => '获取设备二维码地址',
+												'key'  => 'news',
+												'sub_button' => [],
+											),
+											array(
+												'type' => 'view',
+												'name' => '其他通知',
+												'url'  => 'http:\/\/mp.weixin.qq.com\/s?__biz=MzI2MDI4NzQ4NA==&mid=2247483654&idx=1&sn=571ff09b182d25b03851fbb4c6456094&scene=18#rd',
+												'sub_button' => [],
+											),
+						),
+						array(
+							'type' => 'click',
+							'name' => '备忘',
+							'sub_button'  => 
+											array(
+												'type' => 'view',
+												'name' => 'h5',
+												'url'  => 'http:\/\/h5.eqxiu.com\/s\/pwIOcdKA',
+												'sub_button' => [],
+											),
+											array(
+												'type' => 'click',
+												'name' => '图文',
+												'url'  => 'news',
+												'sub_button' => [],
+											),
+											array(
+												'type' => 'miniprogram',
+												'name' => 'wxa',
+												'url'  => 'http://mp.weixin.qq.com',
+												'appid'=> 'wx286b93c14bbf93aa',
+												'pagepath' => 'pages/lunar/index',
+											),
+						),
+						array(
+							'type' => 'click',
+							'name' => '关于',
+							'sub_button'  => 
+											array(
+												'type' => 'click',
+												'name' => '博客',
+												'url'  => 'http://blog.kevinfei.com',
+												'sub_button' => [],
+											),
+											array(
+												'type' => 'click',
+												'name' => '联系我们',
+												'key'  => 'About',
+												'sub_button' => [],
+											),
+						),
+		);
+
 		$this->load->library('Wechat/wechat_menu', self::getWconfig());
 		var_dump($this->wechat_menu->createMenu($data));
 	}
