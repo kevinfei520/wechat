@@ -76,10 +76,12 @@ class CI_Wechat_common extends CI_Wechat_basic {
         if ($_SERVER['REQUEST_METHOD'] == "POST") {   
             $postStr = file_get_contents("php://input");
             $array = (array) simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
+           
             $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
             $txt = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
             fwrite($myfile, $txt);
             fclose($myfile);
+
             $this->encrypt_type = isset($_GET["encrypt_type"]) ? $_GET["encrypt_type"] : '';
             if ($this->encrypt_type == 'aes') {
                 $encryptStr = $array['Encrypt'];
@@ -98,6 +100,12 @@ class CI_Wechat_common extends CI_Wechat_basic {
                 $this->postxml = $postStr;
             }
         } elseif (isset($_GET["echostr"])) {
+
+            $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+            $txt = $_GET["echostr"];
+            fwrite($myfile, $txt);
+            fclose($myfile);
+
             if ($this->checkSignature()) {
                 exit($_GET["echostr"]);
             } else {
