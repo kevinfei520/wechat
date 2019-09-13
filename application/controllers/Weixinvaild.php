@@ -15,8 +15,10 @@ class Weixinvaild extends CI_Controller {
 	public function valid()
 	{	
 		# 加载对应操作接口
-		$this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
-		$this->wechat_common->valid();
+		// $this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
+		// $this->wechat_common->valid();
+		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
+		echo $this->wechat_receive->text('msg')->reply();
 	}
 	
 	/**
@@ -27,8 +29,8 @@ class Weixinvaild extends CI_Controller {
 	 */
 	public function index()
 	{	
-		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
-		echo $this->wechat_receive->text('msg')->reply();
+		// $this->load->library('Wechat/Wechat_receive', self::getWconfig());
+		// echo $this->wechat_receive->text('msg')->reply();
 	}
 
 }
