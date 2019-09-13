@@ -49,6 +49,7 @@
  * @author		EllisLab Dev Team
  * @link		https://codeigniter.com/user_guide/general/controllers.html
  */
+
 class CI_Controller {
 
 	/**
