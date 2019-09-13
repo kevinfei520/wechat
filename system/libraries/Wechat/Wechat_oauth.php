@@ -17,13 +17,10 @@ class CI_Wechat_oauth extends CI_Wechat_common {
     const OAUTH_AUTH_URL = '/sns/auth?';
 
     /**
-     * 
-     */
-
-    /**
      * oauth 授权跳转接口
      * @param string $callback 回调URI
      * @return string
+     * @link https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842
      */
     public function getOauthRedirect($callback, $state = '', $scope = 'snsapi_userinfo') {
         $redirect_uri = urlencode($callback);
