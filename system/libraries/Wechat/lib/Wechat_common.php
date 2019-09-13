@@ -173,4 +173,18 @@ class CI_Wechat_common extends CI_Wechat_basic {
         }
         return false;
     }
+    /**
+     * [outoReply description]
+     * @author   jingfeiMac  794783766@qq.com
+     * @datetime 2019-09-14T01:23:30+0800
+     * @return   [type]                   [description]
+     */
+    public function outoReply()
+    {   
+        $msg = 'outoReply';
+        $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "a");
+        $txt = implode(',', $msg);
+        fwrite($myfile, $txt);
+        fclose($myfile);
+    }
 }
