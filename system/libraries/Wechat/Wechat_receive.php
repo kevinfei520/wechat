@@ -44,7 +44,8 @@ class CI_Wechat_receive extends CI_Wechat_common {
      * 获取微信服务器发来的内容
      * @return \WechatReceive
      */
-    public function getRev() {
+    // public function getRev() {
+    public function __construct() {
         if ($this->_receive) {
             return $this;
         }
