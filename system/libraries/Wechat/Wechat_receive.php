@@ -1011,10 +1011,6 @@ class CI_Wechat_receive extends CI_Wechat_common {
             $format = "<xml><Encrypt><![CDATA[%s]]></Encrypt><MsgSignature><![CDATA[%s]]></MsgSignature><TimeStamp>%s</TimeStamp><Nonce><![CDATA[%s]]></Nonce></xml>";
             $xmldata = sprintf($format, $encrypt, $signature, $timestamp, $nonce);
         }
-        $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "a");
-        $txt = $xmldata;
-        fwrite($myfile, $txt);
-        fclose($myfile);
         if ($return) {
             return $xmldata;
         }
