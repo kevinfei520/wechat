@@ -48,8 +48,8 @@ class Menu extends CI_Controller {
                             "sub_button": []
                         }, {
                             "type": "view",
-                            "name": "获取设备二维码地址",
-                            "url": "http://58djf.com/Wechat/Home/product/getOpenid",
+                            "name": "网页授权",
+                            "url": "http://weixin.kevinfei.com/",
                             "sub_button": []
                         }, {
                             "type": "view",
