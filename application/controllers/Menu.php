@@ -49,7 +49,7 @@ class Menu extends CI_Controller {
                         }, {
                             "type": "view",
                             "name": "网页授权",
-                            "url": "http://weixin.kevinfei.com/welcome/getuserinfo",
+                            "url": "http:\/\/weixin.kevinfei.com\/welcome\/index",
                             "sub_button": []
                         }, {
                             "type": "view",
