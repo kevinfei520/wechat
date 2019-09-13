@@ -17,11 +17,15 @@ class CI_Wechat_oauth extends CI_Wechat_common {
     const OAUTH_AUTH_URL = '/sns/auth?';
 
     /**
+     * 
+     */
+
+    /**
      * oauth 授权跳转接口
      * @param string $callback 回调URI
      * @return string
      */
-    public function getOauthRedirect($callback, $state = '', $scope = 'snsapi_base') {
+    public function getOauthRedirect($callback, $state = '', $scope = 'snsapi_userinfo') {
         $redirect_uri = urlencode($callback);
         return self::OAUTH_PREFIX . self::OAUTH_AUTHORIZE_URL . "appid={$this->appid}&redirect_uri={$redirect_uri}&response_type=code&scope={$scope}&state={$state}#wechat_redirect";
     }
