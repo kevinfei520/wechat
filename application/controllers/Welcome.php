@@ -21,24 +21,16 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	// public function index()
-	// {
-	// 	$this->load->view('welcome_message');
-	// }
-
-	public function __construct() {
-
-		parent::__construct();
-		
-		# 加载对应操作接口
-		//文件夹名注意大写
-		$this->load->library('Wechat/wechat_user', self::getWconfig());
-		var_dump($this->wechat_user->getUserList());
-	}
-
 	public function index()
-	{
-		echo 'hello work for Weixin';
+	{	
+		$this->load->library('Wechat/Wechat_oauth', self::getWconfig());
+		$url = $this->wechat_oauth->getOauthRedirect('http://my.codeigniter.com/');
+
+		var_dump( $url );die;
+		
+		// $this->load->library('Wechat/lib/Wechat_basic');
+		echo $this->wechat_oauth->http_get($url);
+		// $this->getOauthRedirect()
 	}
 
 
