@@ -18,7 +18,10 @@ class Welcome extends CI_Controller {
 	{	
 		if(isset($_GET['code']) && $_GET['code'])
 		{
-			var_dump( $_GET['code'] );
+			//拉取用户信息
+			$this->load->library('Wechat/Wechat_oauth', self::getWconfig());
+			$access = $this->wechat_oauth->getOauthAccessToken();
+			var_dump($access);die;
 		}
 	}
 
