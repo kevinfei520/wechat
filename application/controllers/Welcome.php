@@ -21,7 +21,8 @@ class Welcome extends CI_Controller {
 			//拉取用户信息
 			$this->load->library('Wechat/Wechat_oauth', self::getWconfig());
 			$access = $this->wechat_oauth->getOauthAccessToken();
-			var_dump($access);die;
+			$userinfo = $this->wechat_oauth->getOauthAccessToken($access['access_token'],$access['openid']);
+			var_dump($userinfo);die;
 		}
 	}
 
