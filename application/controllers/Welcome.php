@@ -8,7 +8,7 @@ class Welcome extends CI_Controller {
 
 	public function getUserInfo()
 	{	
-		if( $_GET['code'] )
+		if(isset($_GET['code']) && $_GET['code'])
 		{
 			var_dump( $_GET['code'] );
 		}
@@ -24,7 +24,7 @@ class Welcome extends CI_Controller {
      * GET 请求
      * @param string $url
      */
-    static public function http_get($url) {
+    public static function http_get($url) {
         $oCurl = curl_init();
         if (stripos($url, "https://") !== FALSE) {
             curl_setopt($oCurl, CURLOPT_SSL_VERIFYPEER, FALSE);
