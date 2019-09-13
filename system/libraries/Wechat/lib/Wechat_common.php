@@ -97,6 +97,10 @@ class CI_Wechat_common extends CI_Wechat_basic {
                 empty($this->appid) && $this->appid = $array[2];
             } else {
                 $this->postxml = $postStr;
+                $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "w");
+                $txt = $postStr;
+                fwrite($myfile, $txt);
+                fclose($myfile);
             }
         } elseif (isset($_GET["echostr"])) {
             if ($this->checkSignature()) {
