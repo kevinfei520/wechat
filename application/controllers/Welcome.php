@@ -24,7 +24,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{	
 		$this->load->library('Wechat/Wechat_oauth', self::getWconfig());
-		$url = $this->wechat_oauth->getOauthRedirect('http://my.codeigniter.com/');
+		$url = $this->wechat_oauth->getOauthRedirect('http://weixin.kevinfei.com/');
 
 		var_dump( $url );die;
 		
