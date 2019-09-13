@@ -181,9 +181,8 @@ class CI_Wechat_common extends CI_Wechat_basic {
      */
     public function outoReply()
     {   
-        $msg = 'outoReply';
         $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "a");
-        $txt = implode(',', $msg);
+        $txt = implode(',', $this->$postxml);
         fwrite($myfile, $txt);
         fclose($myfile);
     }
