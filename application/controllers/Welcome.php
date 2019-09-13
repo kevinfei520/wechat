@@ -25,14 +25,11 @@ class Welcome extends CI_Controller {
 	{	
 		$this->load->library('Wechat/Wechat_oauth', self::getWconfig());
 		$url = $this->wechat_oauth->getOauthRedirect('http://weixin.kevinfei.com/welcome/getuserinfo','STATE');
-		var_dump( $url );die;
-		
-
 	}
 
 	public function getUserInfo()
 	{
-		var_dump('aa');
+		var_dump($_GET['code']);
 	}
 
 
