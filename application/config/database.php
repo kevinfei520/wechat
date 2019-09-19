@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '47.106.148.135',
-	'username' => 'wec_config',
-	'password' => '3Tn2tbdjjhjCAHPc',
+	'hostname' => 'localhost',
 	'database' => 'wec_config',
+	'username' => 'wec_config',
+	'password' => 'Gzm2EyJaEACpwRJe',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
