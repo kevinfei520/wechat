@@ -2,26 +2,10 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * Weixin Authentication
+ * Weixin Menu
  */
 class Menu extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	
 	public function setMenu()
 	{
 		$this->load->library('Wechat/wechat_menu', self::getWconfig());
@@ -36,7 +20,6 @@ class Menu extends CI_Controller {
 	 */
 	public function create()
 	{	
-		
 		$data = '{
               "button": [
                     {
@@ -49,7 +32,7 @@ class Menu extends CI_Controller {
                         }, {
                             "type": "view",
                             "name": "网页授权",
-                            "url": "http:\/\/weixin.kevinfei.com\/welcome\/index",
+                            "url": "http:\/\/weixin.kevinfei.com\/welcome\/webAuth",
                             "sub_button": []
                         }, {
                             "type": "view",
