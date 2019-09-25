@@ -1,6 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+
 /**
  * 微信业务类
  */
@@ -71,13 +72,14 @@ class WechatController extends BaseController
         var_dump($result);
 
     }
+    
     public function getMenu(){
         $access_token = D('Wechat')->GetAccessToken();
         $url = 'https://api.weixin.qq.com/cgi-bin/menu/get?access_token='.$access_token;
         $result = curlGet($url);
         var_dump($result);
     }
-
+    
     public function deleteMenu()
     {
         $url = 'https://api.weixin.qq.com/cgi-bin/menu/delete?access_token='.D('Wechat')->GetAccessToken();

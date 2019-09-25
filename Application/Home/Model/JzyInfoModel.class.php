@@ -22,6 +22,7 @@ class JzyInfoModel extends Model
 		);
 		return $this->where($where)->find();
 	}
+
 	/**
 	 * 描述      获取某一条
 	 * @Author   Cabbage.
@@ -31,6 +32,7 @@ class JzyInfoModel extends Model
 	public function getFind($where){
 		return $this->where($where)->find();
 	}
+
 	/**
 	 * 描述      新建机智云数据
 	 * @Author   Cabbage.
@@ -41,6 +43,7 @@ class JzyInfoModel extends Model
 	public function createJzyInfo($data){
 		return  $this->add($data);
 	}
+
 	/**
 	 * 描述      修改机智云数据
 	 * @Author   Cabbage.
@@ -101,6 +104,5 @@ class JzyInfoModel extends Model
     	$postJson = curl_post_url($url,$content,$headers,$timeout = 60 ,$type=1);
     	return $postJson;
     }
-
 
 }

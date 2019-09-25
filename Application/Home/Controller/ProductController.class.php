@@ -1,6 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+
 /**
  * 微信硬件接入类 - 对接机智云openid接口
 */
@@ -32,6 +33,7 @@ class ProductController extends Controller
 	    	}
     	}
 	}
+
 	/**
 	 * 描述      用于验证服务器配置
 	 * @Author   Cabbage.
@@ -55,6 +57,7 @@ class ProductController extends Controller
 		return false;
 	     }    
 	}
+
 	/**
 	 * 获取设备绑定openID的二维码地址
 	 * @Author   Cabbage.
@@ -70,6 +73,7 @@ class ProductController extends Controller
 		$qrticket = $result->qrticket;
 		echo $qrticket;
 	}
+
 	/**
 	 * 描述      微信设备授权
 	 * @Author   Cabbage.
@@ -101,6 +105,7 @@ class ProductController extends Controller
         $result = curl_post_url($url,$content);
         var_dump($result);
 	}
+
 	/**
 	 * 描述      使用open_id注册机智云新用户
 	 * @Author   Cabbage.
@@ -203,6 +208,7 @@ class ProductController extends Controller
 			$this->success('设备绑定成功','/Product/panel/id/'.$result['id'],1);
 		}
 	}
+	
 	/**
 	 * 描述      硬件面板
 	 * @Author   Cabbage.

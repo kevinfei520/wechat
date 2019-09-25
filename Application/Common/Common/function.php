@@ -32,6 +32,7 @@ function curlGet($url,$method='get',$headers='',$data=''){
 	$temp = curl_exec($ch);
 	return $temp;
 }
+
 /**
 * 描述      使用curl模拟post请求
 * @Author   Cabbage.
@@ -70,6 +71,7 @@ function curl_post_url($url, $content='', $headers = 0 ,$timeout = 60 , $type = 
 	curl_close ( $ch );
 	return $ret;
 }
+
 /**
  * 对数据列表中的某些字段进行加密
  * @param unknown $lists
@@ -86,6 +88,7 @@ function dataListEncrypt(&$lists, $fields="id"){
 	}
 	return $lists;
 }
+
 /**
  * 系统加密方法
  * @param string $data 要加密的字符串
@@ -124,12 +127,14 @@ function think_encrypt($data, $key = '', $expire = 0) {
 			'' 
 	), base64_encode ( $str ) );
 }
+
 /**
  * 简写加密函数
  */
 function en($data, $key = '', $expire = 0) {
 	return think_encrypt($data,$key,$expire);
 }
+
 /**
  * 系统解密方法
  * 
@@ -188,7 +193,5 @@ function think_decrypt($data, $key = '') {
 function de($data, $key = '') {
 	return think_decrypt($data, $key);
 }
-
-
 
 ?>

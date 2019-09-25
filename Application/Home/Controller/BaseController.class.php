@@ -3,14 +3,12 @@ namespace Home\Controller;
 use Think\Controller;
 
 define("TOKEN", "WechatToken");
+
 class BaseController extends Controller {
 
     public function valid() 
     {	
         $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-        $myfile = fopen("newfile.txt", "w" , $postStr) or die("Unable to open file!");
-        fwrite($myfile, $postStr);
-        fclose($myfile);
         //extract post data
         if (!empty($postStr)){
             $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
@@ -102,6 +100,5 @@ class BaseController extends Controller {
             break;
         }
     }
-
 
 }

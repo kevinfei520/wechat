@@ -6,7 +6,6 @@ use Think\Controller;
 */
 class WebOauthController extends BaseController
 {      
-
     /**
      * 描述    业务逻辑页面
      * @Author   Cabbage.
@@ -24,11 +23,5 @@ class WebOauthController extends BaseController
         $result = curlGet($url);
         var_dump($result);
     }
-
-
- 
-
-
-
 
 }

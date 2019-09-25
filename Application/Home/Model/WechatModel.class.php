@@ -31,6 +31,7 @@ class WechatModel extends Model
                 }else{  echo "no early_time!"; }
         }else{  echo " no info";  }
     }
+
      /*
      * 描述         使用curl获取access_token
      * @Author      Cabbage.
@@ -44,10 +45,4 @@ class WechatModel extends Model
         $url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.$appid.'&secret='.$secret;
         return curlGet($url);
     }
-
-
-
-	
-
-
 }

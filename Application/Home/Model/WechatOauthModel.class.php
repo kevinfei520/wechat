@@ -20,6 +20,7 @@ class WechatOauthModel extends Model
 	public function getInfo($field){
 		return $this->where(['status'=>0])->field($field)->find(); 
 	}
+
 	/**
 	 * 描述  存储授权后得到信息
 	 * @Author   Cabbage.
@@ -134,7 +135,5 @@ class WechatOauthModel extends Model
 	    $reply = $this->saveAccessTokenInfo($id['id'],$info);
 		return empty($reply) ? false : $info->access_token;
 	}
-
 	
-
 }
