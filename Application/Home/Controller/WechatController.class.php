@@ -3,7 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 
 /**
- * 微信业务类
+ * 公众号菜单操作类
  */
 class WechatController extends BaseController
 {	

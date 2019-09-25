@@ -1,9 +1,11 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+
 /**
  * 微信网页授权业务控制器 Oauth2 
 */
+
 class WebOauthController extends BaseController
 {      
     /**
