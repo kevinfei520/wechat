@@ -65,7 +65,7 @@ class CI_Wechat_menu extends CI_Wechat_common {
                 $this->errMsg = $json['errmsg'];
                 return $this->checkRetry(__FUNCTION__, func_get_args());
             }
-            return $result;
+            return $json;
         }
         return false;
     }
