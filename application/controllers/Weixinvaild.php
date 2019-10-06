@@ -23,5 +23,4 @@ class WeixinVaild extends CI_Controller {
 	
 
 
-
 }
