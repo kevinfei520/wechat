@@ -120,6 +120,7 @@ class CI_Wechat_receive extends CI_Wechat_common {
             return false;
         }
     }
+
     /**
      * [autoReply 自动回复，按照用户输入的内容自动回复信息]
      * @author   jingfeiMac  <794783766@qq.com>
@@ -130,14 +131,16 @@ class CI_Wechat_receive extends CI_Wechat_common {
         if( self::MSGTYPE_TEXT == $this->_receive['MsgType']) // 自动回复文本
         {
             return $this->text($this->_receive['Content'])->reply();
-        }
-
-        // foreach ($this->_receive as $key => $value) {
-        //     $txt .= $key.'|||'.$value."<br>";
-        // }
-        // $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "w");
-        // fwrite($myfile, $txt);
-        // fclose($myfile);    
+        } 
+        else if(self::MSGTYPE_EVENT == $this->_receive['MsgType'])
+        {
+            foreach ($this->_receive as $key => $value) {
+                $txt .= $key.'|||'.$value."<br>";
+            }
+            $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "w");
+            fwrite($myfile, $txt);
+            fclose($myfile);  
+        } 
     }
 
     /**
