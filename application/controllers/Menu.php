@@ -9,7 +9,7 @@ class Menu extends CI_Controller {
 	public function setMenu()
 	{
 		$this->load->library('Wechat/wechat_menu', self::getWconfig());
-		var_dump($this->wechat_menu->getUserList());
+		echo $this->wechat_menu->getUserList();
 	}	
 
 	/**
@@ -78,7 +78,7 @@ class Menu extends CI_Controller {
                 ]
         }';
 		$this->load->library('Wechat/wechat_menu', self::getWconfig());
-		var_dump($this->wechat_menu->createMenu($data));
+        echo $this->wechat_menu->createMenu($data);
 	}
 
 	/**
