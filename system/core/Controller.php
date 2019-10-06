@@ -104,10 +104,17 @@ class CI_Controller {
 	public static function getWconfig()
 	{	
 		# wecaht配置参数
+		// $wconfig = array(
+		// 	'token'          => 'WechatToken',
+		// 	'appid'          => 'wxf424cee783ba41b8',
+		// 	'appsecret'      => '9a3b805dd87ab76c53edd79f5fb937ad',
+		// 	'encodingaeskey' => 'XsGiOQzKJX6nLnoObNmgcdH3yB2BW2scAJIyh4YxSJ4',
+		// 	'type'			 => 'user',
+		// );
 		$wconfig = array(
 			'token'          => 'WechatToken',
-			'appid'          => 'wxf424cee783ba41b8',
-			'appsecret'      => '9a3b805dd87ab76c53edd79f5fb937ad',
+			'appid'          => 'wxe734dcf3ae3ce9ad',
+			'appsecret'      => '045c264d5f05f0715301b2f994481d1f',
 			'encodingaeskey' => 'XsGiOQzKJX6nLnoObNmgcdH3yB2BW2scAJIyh4YxSJ4',
 			'type'			 => 'user',
 		);
