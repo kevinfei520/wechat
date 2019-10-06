@@ -20,7 +20,4 @@ class WeixinVaild extends CI_Controller {
 		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
 		echo $this->wechat_receive->autoReply();
 	}
-	
-
-
 }
