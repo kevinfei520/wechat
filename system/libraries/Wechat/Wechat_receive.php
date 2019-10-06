@@ -127,11 +127,11 @@ class CI_Wechat_receive extends CI_Wechat_common {
      */
     public function autoReply()
     {      
-        if( MSGTYPE_TEXT === $this->_receive['MsgType']) // 自动回复文本
+        if( MSGTYPE_TEXT == $this->_receive['MsgType']) // 自动回复文本
         {
             return $this->text($this->_receive['Content'])->reply()
         }
-        
+
         foreach ($this->_receive as $key => $value) {
             $txt .= $key.'|||'.$value."<br>";
         }
