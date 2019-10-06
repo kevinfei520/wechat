@@ -21,4 +21,6 @@ class Weixinvaild extends CI_Controller {
 		echo $this->wechat_receive->text('hello')->reply();
 	}
 
+
+	
 }
