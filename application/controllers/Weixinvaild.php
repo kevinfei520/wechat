@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * Weixin Authentication
  */
-class Weixinvaild extends CI_Controller {
+class WeixinVaild extends CI_Controller {
 
 	/**
 	 * 微信服务器认证
@@ -20,7 +20,7 @@ class Weixinvaild extends CI_Controller {
 		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
 		echo $this->wechat_receive->text('hello')->reply();
 	}
-
-
 	
+
+
 }
