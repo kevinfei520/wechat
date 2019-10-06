@@ -26,9 +26,7 @@ class Mass extends CI_Controller {
 	{}
 
 	public function get()
-	{
-
-	}
+	{}
 
 	public function sendall()
 	{
@@ -37,8 +35,6 @@ class Mass extends CI_Controller {
 	}
 
 	public function delete()
-	{
-		
-	}
+	{}
 	
 }

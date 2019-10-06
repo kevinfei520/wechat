@@ -120,6 +120,20 @@ class CI_Wechat_receive extends CI_Wechat_common {
             return false;
         }
     }
+    /**
+     * [autoReply 自动回复，按照用户输入的内容自动回复信息]
+     * @author   jingfeiMac  <794783766@qq.com>
+     * @datetime 2019-10-06  17:54:18 
+     */
+    public function autoReply()
+    {   
+        foreach ($this->_receive as $key => $value) {
+            $txt .= $key.'|||'.$value."<br>";
+        }
+        $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "w");
+        fwrite($myfile, $txt);
+        fclose($myfile);    
+    }
 
     /**
      * 获取卡券事件推送 - 卡卷审核是否通过
