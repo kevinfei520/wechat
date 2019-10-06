@@ -126,8 +126,8 @@ class CI_Wechat_receive extends CI_Wechat_common {
      * @datetime 2019-10-06  17:54:18 
      */
     public function autoReply()
-    {      
-        if( MSGTYPE_TEXT == $this->_receive['MsgType']) // 自动回复文本
+    {   
+        if( self::MSGTYPE_TEXT == $this->_receive['MsgType']) // 自动回复文本
         {
             return $this->text($this->_receive['Content'])->reply();
         }
