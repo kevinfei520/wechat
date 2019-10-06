@@ -9,7 +9,7 @@ class Menu extends CI_Controller {
 	public function setMenu()
 	{
 		$this->load->library('Wechat/wechat_menu', self::getWconfig());
-		echo $this->wechat_menu->getUserList();
+		var_dump($this->wechat_menu->tryCondMenu());
 	}	
 
 	/**
@@ -90,7 +90,7 @@ class Menu extends CI_Controller {
 	public function get()
 	{
 		$this->load->library('Wechat/wechat_menu', self::getWconfig());
-        echo $this->wechat_menu->getMenu();
+        var_dump( $this->wechat_menu->getMenu() );
 	}
 
 	/**
@@ -100,6 +100,9 @@ class Menu extends CI_Controller {
 	 * @return   [type]                   [description]
 	 */
 	public function delete()
-	{}
+	{
+        $this->load->library('Wechat/wechat_menu', self::getWconfig());
+        var_dump( $this->wechat_menu->deleteMenu() );
+    }
 
 }
