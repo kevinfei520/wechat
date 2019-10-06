@@ -133,13 +133,9 @@ class CI_Wechat_receive extends CI_Wechat_common {
             return $this->text($this->_receive['Content'])->reply();
         } 
         else if(self::MSGTYPE_EVENT == $this->_receive['MsgType'])
-        {
-            foreach ($this->_receive as $key => $value) {
-                $txt .= $key.'|||'.$value."<br>";
-            }
-            $myfile = fopen("/www/wwwroot/weixin.kevinfei.com/newfile.txt", "w");
-            fwrite($myfile, $txt);
-            fclose($myfile);  
+        {   
+            if( $this->_receive['Event'] == 'subscribe')
+            return $this->text('感谢您的关注！很高兴为您提供服务！')->reply();
         } 
     }
 
