@@ -15,10 +15,10 @@ class WeixinVaild extends CI_Controller {
 	public function valid()
 	{	
 		# 加载对应操作接口
-		$this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
-		$this->wechat_common->valid();
-		// $this->load->library('Wechat/Wechat_receive', self::getWconfig());
-		// echo $this->wechat_receive->autoReply();
+		// $this->load->library('Wechat/lib/Wechat_common', self::getWconfig());
+		// $this->wechat_common->valid();
+		$this->load->library('Wechat/Wechat_receive', self::getWconfig());
+		echo $this->wechat_receive->autoReply();
 	}
 	
 
