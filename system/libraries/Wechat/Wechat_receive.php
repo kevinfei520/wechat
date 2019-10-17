@@ -123,8 +123,8 @@ class CI_Wechat_receive extends CI_Wechat_common {
 
     /**
      * [autoReply 自动回复，按照用户输入的内容自动回复信息]
-     * @author   jingfeiMac  <794783766@qq.com>
-     * @datetime 2019-10-06  17:54:18 
+     * @author   Ding Jingfei  <794783766@qq.com>
+     * @datetime 2019-10-13T02:17:26+0800
      */
     public function autoReply()
     {   
@@ -135,7 +135,7 @@ class CI_Wechat_receive extends CI_Wechat_common {
         else if(self::MSGTYPE_EVENT == $this->_receive['MsgType'])
         {   
             if( $this->_receive['Event'] == 'subscribe')
-            return $this->text('感谢您的关注！很高兴为您提供服务！')->reply();
+            return $this->text('感谢您的关注！很荣幸为您服务！')->reply();
         } 
     }
 

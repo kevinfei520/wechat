@@ -16,7 +16,7 @@ abstract class CI_Wechat_basic {
      * @param type $length
      * @return type
      */
-    static public function createNoncestr($length = 32) {
+    public static function createNoncestr($length = 32) {
         $chars = "abcdefghijklmnopqrstuvwxyz0123456789";
         $str = "";
         for ($i = 0; $i < $length; $i++) {
@@ -31,7 +31,7 @@ abstract class CI_Wechat_basic {
      * @param string $method 签名方法
      * @return boolean|string 签名值
      */
-    static public function getSignature($arrdata, $method = "sha1") {
+    public static function getSignature($arrdata, $method = "sha1") {
         if (!function_exists($method)) {
             return false;
         }
@@ -49,7 +49,7 @@ abstract class CI_Wechat_basic {
      * @param type $urlencode
      * @return type
      */
-    static private function formatPayOption($option, $urlencode) {
+    private static function formatPayOption($option, $urlencode) {
         $buff = "";
         ksort($option);
         foreach ($option as $k => $v) {
@@ -71,7 +71,7 @@ abstract class CI_Wechat_basic {
      * @param type $partnerKey
      * @return type
      */
-    static public function getPaySign($option, $partnerKey) {
+    public static function getPaySign($option, $partnerKey) {
         ksort($option);
         $String = self::formatPayOption($option, false);
         return strtoupper(md5("{$String}&key={$partnerKey}"));
@@ -120,7 +120,7 @@ abstract class CI_Wechat_basic {
      * @param type $xml
      * @return type
      */
-    static public function xml2array($xml) {
+    public static function xml2array($xml) {
         return json_decode(self::json_encode(simplexml_load_string($xml, 'SimpleXMLElement', LIBXML_NOCDATA)), true);
     }
 
@@ -128,7 +128,7 @@ abstract class CI_Wechat_basic {
      * GET 请求
      * @param string $url
      */
-    static public function http_get($url) {
+    public static function http_get($url) {
         $oCurl = curl_init();
         if (stripos($url, "https://") !== FALSE) {
             curl_setopt($oCurl, CURLOPT_SSL_VERIFYPEER, FALSE);
@@ -153,7 +153,7 @@ abstract class CI_Wechat_basic {
      * @param type $postdata
      * @return boolean
      */
-    static public function http_post($url, $postdata) {
+    public static function http_post($url, $postdata) {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
@@ -186,7 +186,7 @@ abstract class CI_Wechat_basic {
      * @param type $second 设置请求超时时间
      * @return boolean
      */
-    static function http_ssl_post($url, $postdata, $ssl_cer = null, $ssl_key = null, $second = 30) {
+    public static function http_ssl_post($url, $postdata, $ssl_cer = null, $ssl_key = null, $second = 30) {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_TIMEOUT, $second);
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -251,7 +251,6 @@ abstract class CI_Wechat_basic {
         return '0.0.0.0';
     }
 
-    
     //token存储在数据库中，
     /*setting表结构
      * 
