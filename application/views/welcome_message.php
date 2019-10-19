@@ -67,7 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-<div id="container" style="width: 500px;margin: auto;">
+<div id="container">
 	<h1>Welcome to Weixin TEST!</h1>
 
 	<div id="body">
