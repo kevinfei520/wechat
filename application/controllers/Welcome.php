@@ -41,9 +41,33 @@ class Welcome extends CI_Controller {
 			$this->load->library('Wechat/Wechat_oauth', self::getWconfig());
 			$access = $this->wechat_oauth->getOauthAccessToken();
 			$userinfo = $this->wechat_oauth->getOauthUserinfo($access['access_token'],$access['openid']);
-			var_dump($userinfo);die;
+			$result = $this->addUserInfo($userinfo);
+			var_dump($result);die;
 		}
 	}
 
-	// public function 
+	//添加用户信息
+	public function addUserInfo($userinfo)
+	{
+		if(!empty($userinfo))
+		{	
+			$data['unionid']    =  0;
+	        $data['openid']     = $userinfo['openid'] ;
+	        $data['username']   = $userinfo['nickname'];
+	        $data['nickname']   = $userinfo['nickname'];
+	        $data['headimgurl'] = $userinfo['headimgurl'];
+	        $data['status']     = 1;
+	        $data['created_at'] = date('Y-m-d H:i:s',time()); 
+	        $data['updated_at'] = date('Y-m-d H:i:s',time());
+
+	        var_dump($data);die;
+	        
+			$this->load->model('user', '' ,true);
+			$result = $this->user->insert_user_entry($data);
+			var_dump($result);die;
+
+		}
+
+	}
+
 }
