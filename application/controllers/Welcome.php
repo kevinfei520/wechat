@@ -64,10 +64,7 @@ class Welcome extends CI_Controller {
 	        $data['status']      =  1;
 	        $data['created_at']  =  date('Y-m-d H:i:s',time()); 
 	        $data['updated_at']  =  date('Y-m-d H:i:s',time());
-
-	        var_dump($userinfo);
-	        var_dump($data);die;
-
+	        
 			$this->load->model('user', '' ,true);
 			$result = $this->user->insert_user_entry($data);
 			var_dump($result);die;
