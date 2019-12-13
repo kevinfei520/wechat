@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'database' => 'wec_config',
-	'username' => 'wec_config',
-	'password' => 'Gzm2EyJaEACpwRJe',
+	'hostname' => '47.106.148.135',
+	'database' => 'weixin',
+	'username' => 'weixin',
+	'password' => 'f42D8tzF3wNMMc72',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
