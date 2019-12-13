@@ -14,10 +14,10 @@ class WeixinLogin extends CI_Controller {
      */
 	public function login()
     {
-        $redirect_uri = "'http://weixin.kevinfei.com/weixinlogin/weblogin'";
+        $redirect_uri = "http://weixin.kevinfei.com/weixinlogin/weblogin";
         $redirect_uri = urlencode($redirect_uri);//该回调需要url编码
-        $appID="wxf424cee783ba41b8";
-        $scope="snsapi_login";//写死，微信暂时只支持这个值
+        $appID  = "wxf424cee783ba41b8";
+        $scope  = "snsapi_login";//写死，微信暂时只支持这个值
         //准备向微信发请求
         $url = "https://open.weixin.qq.com/connect/qrconnect?appid=".$appID."&redirect_uri=".$redirect_uri."&response_type=code&scope=".$scope."&state=STATE#wechat_redirect";
         //请求返回的结果(实际上是个html的字符串)
