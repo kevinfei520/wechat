@@ -21,19 +21,24 @@ class User extends CI_Model {
         }
     }
 
-    //A
+    //C
     public function insert_user_entry($userinfo='')
     {   
         return $this->db->insert('user', $userinfo);
     }
 
+    //U
     public function update_entry()
     {
         $this->title    = $_POST['title'];
         $this->content  = $_POST['content'];
-        $this->date = time();
+        $this->date     = time();
 
         $this->db->update('user', $this, array('id' => $_POST['id']));
     }
+
+    //D
+    public function delete_entry()
+    {}
 
 }
