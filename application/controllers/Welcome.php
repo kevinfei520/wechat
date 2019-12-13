@@ -42,10 +42,9 @@ class Welcome extends CI_Controller {
 			$access   = $this->wechat_oauth->getOauthAccessToken();
 			$userinfo = $this->wechat_oauth->getOauthUserinfo($access['access_token'],$access['openid']);
 			$result   = $this->checkWeixinUserInfo($userinfo);
-			var_dump($result);die;
 		}
 	}
-
+	
 	//检测信息
 	public function checkWeixinUserInfo($userinfo)
 	{	

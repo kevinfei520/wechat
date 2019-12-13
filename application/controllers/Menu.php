@@ -63,8 +63,8 @@ class Menu extends CI_Controller {
                         [
                             {
                                 "type": "view",
-                                "name": "Blog",
-                                "url": "http:\/\/blog.kevinfei.com\/",
+                                "name": "博客",
+                                "url": "https:\/\/blog.kevinfei.com\/",
                                 "sub_button": []
                             },
                             {
