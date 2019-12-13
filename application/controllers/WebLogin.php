@@ -26,7 +26,7 @@ class WebLogin extends CI_Controller {
         return $result; //返回页面
     }
 
-    public function weblogin()
+    public function index()
     {
         if(isset($_GET['code']) && $_GET['code'])
         {
