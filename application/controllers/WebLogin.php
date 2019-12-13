@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * Weixin Web Menu
  */
-class Weblogin extends CI_Controller {
+class WebLogin extends CI_Controller {
 
     /**
      * [login description]
