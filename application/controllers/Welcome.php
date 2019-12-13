@@ -51,14 +51,18 @@ class Welcome extends CI_Controller {
 	{
 		if(!empty($userinfo))
 		{	
-			$data['unionid']    = isset($userinfo['unionid']) ? $userinfo['unionid']:0;
-	        $data['openid']     = $userinfo['openid'] ;
-	        $data['username']   = $userinfo['nickname'];
-	        $data['nickname']   = $userinfo['nickname'];
-	        $data['headimgurl'] = $userinfo['headimgurl'];
-	        $data['status']     = 1;
-	        $data['created_at'] = date('Y-m-d H:i:s',time()); 
-	        $data['updated_at'] = date('Y-m-d H:i:s',time());
+			$data['unionid']    =  isset($userinfo['unionid']) ? $userinfo['unionid']:0;
+			$data['language']   =  isset($userinfo['language']) ? $userinfo['language']:0;   
+			$data['city']   	=  isset($userinfo['city']) ? $userinfo['city']:0;   
+			$data['province']   =  isset($userinfo['province']) ? $userinfo['province']:0;   
+			$data['country']    =  isset($userinfo['country']) ? $userinfo['country']:0;   
+	        $data['openid']     =  $userinfo['openid'] ;
+	        $data['username']   =  $userinfo['nickname'];
+	        $data['nickname']   =  $userinfo['nickname'];
+	        $data['headimgurl'] =  $userinfo['headimgurl'];
+	        $data['status']     =  1;
+	        $data['created_at'] =  date('Y-m-d H:i:s',time()); 
+	        $data['updated_at'] =  date('Y-m-d H:i:s',time());
 
 	        var_dump($userinfo);
 	        var_dump($data);die;
