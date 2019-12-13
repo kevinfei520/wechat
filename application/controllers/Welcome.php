@@ -41,9 +41,18 @@ class Welcome extends CI_Controller {
 			$this->load->library('Wechat/Wechat_oauth', self::getWconfig());
 			$access = $this->wechat_oauth->getOauthAccessToken();
 			$userinfo = $this->wechat_oauth->getOauthUserinfo($access['access_token'],$access['openid']);
-			$result = $this->addUserInfo($userinfo);
+			$result = $this->checkWeixinUserInfo($userinfo);
 			var_dump($result);die;
 		}
+	}
+
+	//检测信息
+	public function checkWeixinUserInfo($userinfo)
+	{	
+		$this->load->model('user', '' ,true);
+		$resUser = $this->user->get_where_user_info(array('openid' => $userinfo['openid']));
+		var_dump( $resUser );die;
+
 	}
 
 	//添加用户信息
@@ -64,7 +73,7 @@ class Welcome extends CI_Controller {
 	        $data['status']      =  1;
 	        $data['created_at']  =  date('Y-m-d H:i:s',time()); 
 	        $data['updated_at']  =  date('Y-m-d H:i:s',time());
-	        
+
 			$this->load->model('user', '' ,true);
 			$result = $this->user->insert_user_entry($data);
 			var_dump($result);die;
