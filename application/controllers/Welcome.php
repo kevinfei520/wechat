@@ -51,35 +51,30 @@ class Welcome extends CI_Controller {
 	{	
 		$this->load->model('user', '' ,true);
 		$resUser = $this->user->get_where_user_info(array('openid' => $userinfo['openid']));
-		var_dump( $resUser );die;
-
+		if(!$resUser)
+		{
+			return $this->addUserInfo($userinfo);
+		}
 	}
 
 	//添加用户信息
 	public function addUserInfo($userinfo)
 	{
-		if(!empty($userinfo))
-		{	
-			$data['unionid']     =  isset($userinfo['unionid']) ? $userinfo['unionid']:0;
-			$data['sex']         =  isset($userinfo['sex']) ? $userinfo['sex']:0;   
-			$data['language']    =  isset($userinfo['language']) ? $userinfo['language']:0;   
-			$data['city']   	 =  isset($userinfo['city']) ? $userinfo['city']:0;   
-			$data['province']    =  isset($userinfo['province']) ? $userinfo['province']:0;   
-			$data['country']     =  isset($userinfo['country']) ? $userinfo['country']:0;    
-	        $data['openid']      =  $userinfo['openid'] ;
-	        $data['username']    =  $userinfo['nickname'];
-	        $data['nickname']    =  $userinfo['nickname'];
-	        $data['headimgurl']  =  $userinfo['headimgurl'];
-	        $data['status']      =  1;
-	        $data['created_at']  =  date('Y-m-d H:i:s',time()); 
-	        $data['updated_at']  =  date('Y-m-d H:i:s',time());
-
-			$this->load->model('user', '' ,true);
-			$result = $this->user->insert_user_entry($data);
-			var_dump($result);die;
-
-		}
-
+		$data['unionid']     =  isset($userinfo['unionid']) ? $userinfo['unionid']:0;
+		$data['sex']         =  isset($userinfo['sex']) ? $userinfo['sex']:0;   
+		$data['language']    =  isset($userinfo['language']) ? $userinfo['language']:0;   
+		$data['city']   	 =  isset($userinfo['city']) ? $userinfo['city']:0;   
+		$data['province']    =  isset($userinfo['province']) ? $userinfo['province']:0;   
+		$data['country']     =  isset($userinfo['country']) ? $userinfo['country']:0;    
+		$data['openid']      =  $userinfo['openid'] ;
+		$data['username']    =  $userinfo['nickname'];
+		$data['nickname']    =  $userinfo['nickname'];
+		$data['headimgurl']  =  $userinfo['headimgurl'];
+		$data['status']      =  1;
+		$data['created_at']  =  date('Y-m-d H:i:s',time()); 
+		$data['updated_at']  =  date('Y-m-d H:i:s',time());
+		$this->load->model('user', '' ,true);
+		return $this->user->insert_user_entry($data);
 	}
 
 }
