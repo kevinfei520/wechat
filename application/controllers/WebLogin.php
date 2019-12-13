@@ -14,8 +14,6 @@ class WebLogin extends CI_Controller {
      */
 	public function login()
     {      
-        var_dump('aaa');die;
-
         $redirect_uri = "http://weixin.kevinfei.com/weixinlogin/weblogin";
         $redirect_uri = urlencode($redirect_uri);//该回调需要url编码
         $appID  = "wxf424cee783ba41b8";
