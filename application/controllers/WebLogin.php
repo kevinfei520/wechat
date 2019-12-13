@@ -23,6 +23,8 @@ class WebLogin extends CI_Controller {
     
         //替换图片的src才能显示二维码
         $result = str_replace("/connect/qrcode/", "https://open.weixin.qq.com/connect/qrcode/", file_get_contents($url));
+        var_export($result);die;
+
         return $result; //返回页面
     }
 
