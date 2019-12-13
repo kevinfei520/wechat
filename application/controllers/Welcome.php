@@ -44,4 +44,6 @@ class Welcome extends CI_Controller {
 			var_dump($userinfo);die;
 		}
 	}
+
+	// public function 
 }
