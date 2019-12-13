@@ -51,11 +51,7 @@ class Welcome extends CI_Controller {
 	{
 		if(!empty($userinfo))
 		{	
-
-			var_dump( $userinfo );die;
-
-			
-			$data['unionid']    =  0;
+			$data['unionid']    = isset($userinfo['unionid']) ? $userinfo['unionid']:0;
 	        $data['openid']     = $userinfo['openid'] ;
 	        $data['username']   = $userinfo['nickname'];
 	        $data['nickname']   = $userinfo['nickname'];
