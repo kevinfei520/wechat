@@ -39,9 +39,9 @@ class Welcome extends CI_Controller {
 		{
 			//拉取用户信息
 			$this->load->library('Wechat/Wechat_oauth', self::getWconfig());
-			$access = $this->wechat_oauth->getOauthAccessToken();
+			$access   = $this->wechat_oauth->getOauthAccessToken();
 			$userinfo = $this->wechat_oauth->getOauthUserinfo($access['access_token'],$access['openid']);
-			$result = $this->checkWeixinUserInfo($userinfo);
+			$result   = $this->checkWeixinUserInfo($userinfo);
 			var_dump($result);die;
 		}
 	}
@@ -55,6 +55,7 @@ class Welcome extends CI_Controller {
 		{
 			return $this->addUserInfo($userinfo);
 		}
+		return $userinfo;
 	}
 
 	//添加用户信息
