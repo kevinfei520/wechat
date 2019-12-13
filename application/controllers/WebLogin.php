@@ -20,7 +20,9 @@ class WebLogin extends CI_Controller {
         $scope  = "snsapi_login";//写死，微信暂时只支持这个值
         //准备向微信发请求
         $url = "https://open.weixin.qq.com/connect/qrconnect?appid=".$appID."&redirect_uri=".$redirect_uri."&response_type=code&scope=".$scope."&state=STATE#wechat_redirect";
-    
+        
+        var_export(file_get_contents($url));die;
+        
         //替换图片的src才能显示二维码
         $result = str_replace("/connect/qrcode/", "https://open.weixin.qq.com/connect/qrcode/", file_get_contents($url));
         var_export($result);die;
