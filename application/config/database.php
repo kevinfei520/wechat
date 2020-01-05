@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '47.106.148.135',
+	'hostname' => '127.0.0.1',
 	'database' => 'weixin',
 	'username' => 'weixin',
 	'password' => 'f42D8tzF3wNMMc72',
